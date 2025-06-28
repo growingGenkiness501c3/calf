@@ -1,0 +1,2626 @@
+<script setup lang="ts">
+
+defineOptions({
+  name: "xhibition"
+});
+
+import stone from "@/components/verttailwindbar/stone.vue"
+import lime from "@/components/verttailwindbar/lime.vue"
+import neutral from "@/components/verttailwindbar/neutral.vue"
+import yellow from "@/components/verttailwindbar/yellow.vue"
+import amber from "@/components/verttailwindbar/amber.vue"
+import orange from "@/components/verttailwindbar/orange.vue"
+import red from "@/components/verttailwindbar/red.vue"
+import rose from "@/components/verttailwindbar/rose.vue"
+import pink from "@/components/verttailwindbar/pink.vue"
+import fuchsia from "@/components/verttailwindbar/fuchsia.vue"
+import gray from "@/components/verttailwindbar/gray.vue"
+import purple from "@/components/verttailwindbar/purple.vue"
+import violet from "@/components/verttailwindbar/violet.vue"
+import indigo from "@/components/verttailwindbar/indigo.vue"
+import blue from "@/components/verttailwindbar/blue.vue"
+import sky from "@/components/verttailwindbar/sky.vue"
+import cyan from "@/components/verttailwindbar/cyan.vue"
+import teal from "@/components/verttailwindbar/teal.vue"
+import emerald from "@/components/verttailwindbar/emerald.vue"
+import zinc from "@/components/verttailwindbar/zinc.vue"
+import green from "@/components/verttailwindbar/green.vue"
+import slate from "@/components/verttailwindbar/slate.vue"
+
+import turtleCompiled from "@/components/turtle/turtleCompiled.vue"
+
+import turtle_00 from "@/components/turtle/turtle_00.vue"
+import turtle_01 from "@/components/turtle/turtle_01.vue"
+
+
+import sailboatCompiled from "@/components/sailboat/sailboatCompiled.vue"
+
+import sailboat_00 from "@/components/sailboat/sailboat_00.vue"
+import sailboat_01 from "@/components/sailboat/sailboat_01.vue"
+
+import WIP_00 from "@/components/WIPComponents/WIP_00.vue"
+import WIP_01 from "@/components/WIPComponents/WIP_01.vue"
+
+import nazCompiled from "@/components/naz/nazCompiled.vue"
+import naz_00 from "@/components/naz/naz_00.vue"
+
+import aardvarkComponent from '@/components/aardvark_templates/aardvarkComponent.vue'
+import Clock from '@/components/clocks/Clock.vue'
+import Flag from '@/components/flags/Flag.vue'
+import helloWorld from '@/components/verbs/helloWorld.vue'
+import NaughtSeaHeader from '@/components/bars/NaughtSeaHeader.vue'
+import NavigationBar from '@/components/bars/NavigationBar.vue'
+import NavigationBars from '@/components/bars/NavigationBars.vue'
+import NavigationButtonBar from '@/components/bars/NavigationButtonBar.vue'
+import NavigationRouterBar from '@/components/bars/NavigationRouterBar.vue'
+import oO0 from '@/components/Circles/oO0.vue'
+import seaOfNoughtBar from '@/components/bars/seaOfNoughtBar.vue'
+import seaOfNoughtNavigationBar from '@/components/bars/seaOfNoughtNavigationBar.vue'
+import seaOfNoughtShipsLog from '@/components/seaOfNought/seaOfNoughtShipsLog.vue'
+import shipsLogHeader from '@/components/bars/shipsLogHeader.vue'
+import SplitOneTwoThree from '@/components/aardvark_templates/SplitOneTwoThree.vue'
+import wordBar from '@/components/bars/wordBar.vue'
+import yearsBar from '@/components/bars/yearsBar.vue'
+import zer0Oo from '@/components/circles/zer0Oo.vue'
+
+import blackFlag from '@/components/color/blackFlag.vue'
+import cyanFlag from '@/components/color/cyanFlag.vue'
+import hueBar from '@/components/color/hueBar.vue'
+import magentaFlag from '@/components/color/magentaFlag.vue'
+import rainbowDots from '@/components/color/rainbowDots.vue'
+import skyBottom from '@/components/color/skyBottom.vue'
+import skyMini from '@/components/color/skyMini.vue'
+import skyTop from '@/components/color/skyTop.vue'
+import whiteFlag from '@/components/color/whiteFlag.vue'
+import yellowFlag from '@/components/color/yellowFlag.vue'
+
+import backgroundImages from "@/components/backgroundImages.vue"
+
+import Footer from "@/components/bars/Footer.vue"
+import Header from "@/components/bars/Header.vue"
+
+import zer01 from "@/components/zer0/zer04.vue"
+import zer02 from "@/components/zer0/zer05.vue"
+import zer03 from "@/components/zer0/zer06.vue"
+import zer04 from "@/components/zer0/zer04.vue"
+import zer05 from "@/components/zer0/zer05.vue"
+import zer06 from "@/components/zer0/zer06.vue"
+
+import fontBar from "@/components/bars/fontBar.vue"
+import hsl60Bar from "@/components/color/hsl60Bar.vue"
+
+</script>
+<template>
+🗒️亗ᨖ ᨖ亗🗒️
+<backgroundImages>
+<hr>
+<h1>stone</h1>
+<stone />
+<hr>
+<h1>lime</h1>
+<lime />
+<hr>
+<h1>neutral</h1>
+<neutral />
+<hr>
+<h1>yellow</h1>
+<yellow />
+<hr>
+<h1>amber</h1>
+<amber />
+<hr>
+<h1>orange</h1>
+<orange />
+<hr>
+<h1>red</h1>
+<red />
+<hr>
+<h1>rose</h1>
+<rose />
+<hr>
+<h1>pink</h1>
+<pink />
+<hr>
+<h1>fuchsia</h1>
+<fuchsia />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>purple</h1>
+<purple />
+<hr>
+<h1>violet</h1>
+<violet />
+<hr>
+<h1>indigo</h1>
+<indigo />
+<hr>
+<h1>blue</h1>
+<blue />
+<hr>
+<h1>sky</h1>
+<sky />
+<hr>
+<h1>cyan</h1>
+<cyan />
+<hr>
+<h1>teal</h1>
+<teal />
+<hr>
+<h1>emerald</h1>
+<emerald />
+<hr>
+<h1>zinc</h1>
+<zinc />
+<hr>
+<h1>green</h1>
+<green />
+<hr>
+<h1>slate</h1>
+<gray />
+<hr>
+<h1>turtleCompiled</h1>
+<turtleCompiled />
+<hr>
+<h1>turtle_00</h1>
+<turtle_00 />
+<hr>
+<h1>turtle_01</h1>
+<turtle_01 />
+<hr>
+<h1>sailboatCompiled</h1>
+<sailboatCompiled />
+<hr>
+<h1>sailboat_00</h1>
+<sailboat_00 />
+<hr>
+<h1>sailboat_01</h1>
+<sailboat_01 />
+<hr>
+<h1>WIP_00</h1>
+<WIP_00 />
+<hr>
+<h1>WIP_01</h1>
+<WIP_01 />
+<hr>
+<h1>nazCompiled</h1>
+<nazCompiled />
+<hr>
+<h1>naz_00</h1>
+<naz_00 />
+<hr>
+<h1>aardvarkComponent</h1>
+<aardvarkComponent />
+<hr>
+<h1>Clock</h1>
+<Clock />
+<hr>
+<h1>Flag</h1>
+<Flag />
+<hr>
+<h1>helloWorld</h1>
+<helloWorld />
+<hr>
+<h1>NaughtSeaHeader</h1>
+<NaughtSeaHeader />
+<hr>
+<h1>NavigationBar</h1>
+<NavigationBar />
+<hr>
+<h1>NavigationBars</h1>
+<NavigationBars />
+<hr>
+<h1>NavigationButtonBar</h1>
+<NavigationButtonBar />
+<hr>
+<h1>NavigationRouterBar</h1>
+<NavigationRouterBar />
+<hr>
+<h1>oO0</h1>
+<oO0 />
+<hr>
+<h1>grseaOfNoughtBaray</h1>
+<seaOfNoughtBar />
+<hr>
+<h1>seaOfNoughtNavigationBar</h1>
+<seaOfNoughtNavigationBar />
+<hr>
+<h1>seaOfNoughtShipsLog</h1>
+<seaOfNoughtShipsLog />
+<hr>
+<h1>shipsLogHeader</h1>
+<shipsLogHeader />
+<hr>
+<h1>SplitOneTwoThree</h1>
+<SplitOneTwoThree />
+<hr>
+<h1>wordBar</h1>
+<wordBar />
+<hr>
+<h1>yearsBar</h1>
+<yearsBar />
+<hr>
+<h1>zer0Oo</h1>
+<zer0Oo />
+<hr>
+<h1>blackFlag</h1>
+<blackFlag />
+<hr>
+<h1>cyanFlag</h1>
+<cyanFlag />
+<hr>
+<h1>hueBar</h1>
+<hueBar />
+<hr>
+<h1>magentaFlag</h1>
+<magentaFlag />
+<hr>
+<h1>rainbowDots</h1>
+<rainbowDots />
+<hr>
+<h1>skyBottom</h1>
+<skyBottom />
+<hr>
+<h1>skyMini</h1>
+<skyMini />
+<hr>
+<h1>skyTop</h1>
+<skyTop />
+<hr>
+<h1>whiteFlag</h1>
+<whiteFlag />
+<hr>
+<h1>yellowFlag</h1>
+<yellowFlag />
+<hr>
+<h1>slate</h1>
+<slate />
+<hr>
+<h1>Footer</h1>
+<Footer />
+<hr>
+<h1>Header</h1>
+<Header />
+<hr>
+<h1>zer01</h1>
+<zer01 />
+<hr>
+<h1>zer02</h1>
+<zer02 />
+<hr>
+<h1>zer03</h1>
+<zer03 />
+<hr>
+<h1>zer04</h1>
+<zer04 />
+<hr>
+<h1>zer05</h1>
+<zer05 />
+<hr>
+<h1>zer06</h1>
+<zer06 />
+<hr>
+<h1>fontBar</h1>
+<fontBar />
+<hr>
+<h1>hsl60Bar</h1>
+<hsl60Bar />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+<hr>
+<h1>gray</h1>
+<gray />
+
+
+<hr>
+<lime />
+<br />
+<br /><br /><br /><br /><br /><br />
+
+<div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/60 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/60 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/art 1.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/art 2.PNG" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-700" >
+    <img src="/color/hsl/art 3.PNG" class="w-100 object-cover rounded-md" />
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div></div>
+  <div><clock />  </div>
+  <div></div>
+</div>
+
+  <div class="grid grid-cols-60 gap-1 p-1 text-[33px] text-center alumni-sans-pinstripe-regular">
+      <div class="rounded-full border-3 border-[hsl(60,50%,50%,100%)] bg-[hsl(60,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">60</div>
+      <div class="rounded-full border-3 border-[hsl(54,50%,50%,100%)] bg-[hsl(54,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">54</div>
+      <div class="rounded-full border-3 border-[hsl(48,50%,50%,100%)] bg-[hsl(48,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">48</div>
+      <div class="rounded-full border-3 border-[hsl(42,50%,50%,100%)] bg-[hsl(42,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">42</div>
+      <div class="rounded-full border-3 border-[hsl(36,50%,50%,100%)] bg-[hsl(36,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">36</div>
+      <div class="rounded-full border-3 border-[hsl(30,50%,50%,100%)] bg-[hsl(30,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">30</div>
+      <div class="rounded-full border-3 border-[hsl(24,50%,50%,100%)] bg-[hsl(24,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">24</div>
+      <div class="rounded-full border-3 border-[hsl(18,50%,50%,100%)] bg-[hsl(18,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">18</div>
+      <div class="rounded-full border-3 border-[hsl(12,50%,50%,100%)] bg-[hsl(12,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">12</div>
+      <div class="rounded-full border-3 border-[hsl(6,50%,50%,100%)] bg-[hsl(6,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">6</div>
+      <div class="rounded-full border-3 border-[hsl(360,50%,50%,100%)] bg-[hsl(360,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">360</div>
+      <div class="rounded-full border-3 border-[hsl(354,50%,50%,100%)] bg-[hsl(354,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">354</div>
+      <div class="rounded-full border-3 border-[hsl(348,50%,50%,100%)] bg-[hsl(348,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">348</div>
+      <div class="rounded-full border-3 border-[hsl(342,50%,50%,100%)] bg-[hsl(342,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">342</div>
+      <div class="rounded-full border-3 border-[hsl(336,50%,50%,100%)] bg-[hsl(336,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">336</div>
+      <div class="rounded-full border-3 border-[hsl(330,50%,50%,100%)] bg-[hsl(330,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">330</div>
+      <div class="rounded-full border-3 border-[hsl(324,50%,50%,100%)] bg-[hsl(324,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">324</div>
+      <div class="rounded-full border-3 border-[hsl(318,50%,50%,100%)] bg-[hsl(318,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">318</div>
+      <div class="rounded-full border-3 border-[hsl(312,50%,50%,100%)] bg-[hsl(312,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">312</div>
+      <div class="rounded-full border-3 border-[hsl(306,50%,50%,100%)] bg-[hsl(306,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">306</div>
+      <div class="rounded-full border-3 border-[hsl(300,50%,50%,100%)] bg-[hsl(300,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">300</div>
+      <div class="rounded-full border-3 border-[hsl(294,50%,50%,100%)] bg-[hsl(294,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">294</div>
+      <div class="rounded-full border-3 border-[hsl(288,50%,50%,100%)] bg-[hsl(288,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">288</div>
+      <div class="rounded-full border-3 border-[hsl(282,50%,50%,100%)] bg-[hsl(282,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">282</div>
+      <div class="rounded-full border-3 border-[hsl(276,50%,50%,100%)] bg-[hsl(276,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">276</div>
+      <div class="rounded-full border-3 border-[hsl(270,50%,50%,100%)] bg-[hsl(270,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">270</div>
+      <div class="rounded-full border-3 border-[hsl(264,50%,50%,100%)] bg-[hsl(264,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">264</div>
+      <div class="rounded-full border-3 border-[hsl(258,50%,50%,100%)] bg-[hsl(258,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">258</div>
+      <div class="rounded-full border-3 border-[hsl(252,50%,50%,100%)] bg-[hsl(252,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">252</div>
+      <div class="rounded-full border-3 border-[hsl(246,50%,50%,100%)] bg-[hsl(246,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">246</div>
+      <div class="rounded-full border-3 border-[hsl(240,50%,50%,100%)] bg-[hsl(240,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">240</div>
+      <div class="rounded-full border-3 border-[hsl(234,50%,50%,100%)] bg-[hsl(234,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">234</div>
+      <div class="rounded-full border-3 border-[hsl(228,50%,50%,100%)] bg-[hsl(228,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">228</div>
+      <div class="rounded-full border-3 border-[hsl(222,50%,50%,100%)] bg-[hsl(222,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">222</div>
+      <div class="rounded-full border-3 border-[hsl(216,50%,50%,100%)] bg-[hsl(216,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">216</div>
+      <div class="rounded-full border-3 border-[hsl(210,50%,50%,100%)] bg-[hsl(210,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">210</div>
+      <div class="rounded-full border-3 border-[hsl(204,50%,50%,100%)] bg-[hsl(204,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">204</div>
+      <div class="rounded-full border-3 border-[hsl(198,50%,50%,100%)] bg-[hsl(198,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">198</div>
+      <div class="rounded-full border-3 border-[hsl(192,50%,50%,100%)] bg-[hsl(192,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">192</div>
+      <div class="rounded-full border-3 border-[hsl(186,50%,50%,100%)] bg-[hsl(186,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">186</div>
+      <div class="rounded-full border-3 border-[hsl(180,50%,50%,100%)] bg-[hsl(180,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">180</div>
+      <div class="rounded-full border-3 border-[hsl(174,50%,50%,100%)] bg-[hsl(174,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">174</div>
+      <div class="rounded-full border-3 border-[hsl(168,50%,50%,100%)] bg-[hsl(168,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">168</div>
+      <div class="rounded-full border-3 border-[hsl(162,50%,50%,100%)] bg-[hsl(162,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">162</div>
+      <div class="rounded-full border-3 border-[hsl(156,50%,50%,100%)] bg-[hsl(156,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">156</div>
+      <div class="rounded-full border-3 border-[hsl(150,50%,50%,100%)] bg-[hsl(150,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">150</div>
+      <div class="rounded-full border-3 border-[hsl(144,50%,50%,100%)] bg-[hsl(144,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">144</div>
+      <div class="rounded-full border-3 border-[hsl(138,50%,50%,100%)] bg-[hsl(138,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">138</div>
+      <div class="rounded-full border-3 border-[hsl(132,50%,50%,100%)] bg-[hsl(132,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">132</div>
+      <div class="rounded-full border-3 border-[hsl(126,50%,50%,100%)] bg-[hsl(126,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">126</div>
+      <div class="rounded-full border-3 border-[hsl(120,50%,50%,100%)] bg-[hsl(120,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">120</div>
+      <div class="rounded-full border-3 border-[hsl(114,50%,50%,100%)] bg-[hsl(114,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">114</div>
+      <div class="rounded-full border-3 border-[hsl(108,50%,50%,100%)] bg-[hsl(108,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">108</div>
+      <div class="rounded-full border-3 border-[hsl(102,50%,50%,100%)] bg-[hsl(102,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">102</div>
+      <div class="rounded-full border-3 border-[hsl(96,50%,50%,100%)] bg-[hsl(96,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">96</div>
+      <div class="rounded-full border-3 border-[hsl(90,50%,50%,100%)] bg-[hsl(90,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">90</div>
+      <div class="rounded-full border-3 border-[hsl(84,50%,50%,100%)] bg-[hsl(84,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">84</div>
+      <div class="rounded-full border-3 border-[hsl(78,50%,50%,100%)] bg-[hsl(78,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">78</div>
+      <div class="rounded-full border-3 border-[hsl(72,50%,50%,100%)] bg-[hsl(72,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">72</div>
+      <div class="rounded-full border-3 border-[hsl(66,50%,50%,100%)] bg-[hsl(66,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">66</div>
+  </div>
+<div class="grid grid-cols-[repeat(5,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div>
+    <pre class="text-9xl">60</pre>
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="grid grid-cols-30 gap-1 p-1 text-[18px]  alumni-sans-pinstripe-regular text-center">
+  <div class="rounded-full border-3 border-[hsl(72,50%,50%,100%)] bg-[hsl(72,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">72°</div>
+  <div class="rounded-full border-3 border-[hsl(60,50%,50%,100%)] bg-[hsl(60,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">60°</div>
+  <div class="rounded-full border-3 border-[hsl(48,50%,50%,100%)] bg-[hsl(48,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">48°</div>
+  <div class="rounded-full border-3 border-[hsl(36,50%,50%,100%)] bg-[hsl(36,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">36°</div>
+  <div class="rounded-full border-3 border-[hsl(24,50%,50%,100%)] bg-[hsl(24,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">24°</div>
+  <div class="rounded-full border-3 border-[hsl(12,50%,50%,100%)] bg-[hsl(12,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">12°</div>
+  <div class="rounded-full border-3 border-[hsl(0,50%,50%,100%)] bg-[hsl(0,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">0°</div>      
+  <div class="rounded-full border-3 border-[hsl(348,50%,50%,100%)] bg-[hsl(348,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">348°</div>      
+  <div class="rounded-full border-3 border-[hsl(336,50%,50%,100%)] bg-[hsl(336,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">336°</div>
+  <div class="rounded-full border-3 border-[hsl(324,50%,50%,100%)] bg-[hsl(324,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">324°</div>
+  <div class="rounded-full border-3 border-[hsl(312,50%,50%,100%)] bg-[hsl(312,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">312°</div>
+  <div class="rounded-full border-3 border-[hsl(300,50%,50%,100%)] bg-[hsl(300,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">300°</div>
+  <div class="rounded-full border-3 border-[hsl(288,50%,50%,100%)] bg-[hsl(288,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">288°</div>
+  <div class="rounded-full border-3 border-[hsl(276,50%,50%,100%)] bg-[hsl(276,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">276°</div>
+  <div class="rounded-full border-3 border-[hsl(264,50%,50%,100%)] bg-[hsl(264,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">264°</div>      
+  <div class="rounded-full border-3 border-[hsl(252,50%,50%,100%)] bg-[hsl(252,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">252°</div>
+  <div class="rounded-full border-3 border-[hsl(240,50%,50%,100%)] bg-[hsl(240,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">240°</div>
+  <div class="rounded-full border-3 border-[hsl(228,50%,50%,100%)] bg-[hsl(228,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">228°</div>
+  <div class="rounded-full border-3 border-[hsl(216,50%,50%,100%)] bg-[hsl(216,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">216°</div>
+  <div class="rounded-full border-3 border-[hsl(204,50%,50%,100%)] bg-[hsl(204,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">204°</div>
+  <div class="rounded-full border-3 border-[hsl(192,50%,50%,100%)] bg-[hsl(192,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">192°</div>
+  <div class="rounded-full border-3 border-[hsl(180,50%,50%,100%)] bg-[hsl(180,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">180°</div>      
+  <div class="rounded-full border-3 border-[hsl(168,50%,50%,100%)] bg-[hsl(168,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">168°</div>
+  <div class="rounded-full border-3 border-[hsl(156,50%,50%,100%)] bg-[hsl(156,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">156°</div>
+  <div class="rounded-full border-3 border-[hsl(144,50%,50%,100%)] bg-[hsl(144,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">144°</div>
+  <div class="rounded-full border-3 border-[hsl(132,50%,50%,100%)] bg-[hsl(132,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">132°</div>
+  <div class="rounded-full border-3 border-[hsl(120,50%,50%,100%)] bg-[hsl(120,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">120°</div>
+  <div class="rounded-full border-3 border-[hsl(108,50%,50%,100%)] bg-[hsl(108,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">108°</div>
+  <div class="rounded-full border-3 border-[hsl(96,50%,50%,100%)] bg-[hsl(96,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">96°</div>      
+  <div class="rounded-full border-3 border-[hsl(84,50%,50%,100%)] bg-[hsl(84,50%,50%,50%)] text-[hsl(0,00%,100%,100%)]">84°</div>      
+</div>
+<div class="grid grid-cols-[repeat(5,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div>
+    <pre class="text-9xl">30</pre>
+  </div>
+  <div class="border border-sky-300" >
+    <img src="/color/hsl/30 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
+  <div class="p-2 border hue060 orbitron">hue<br> 60°</div>
+  <div class="p-2 border hue030 orbitron">hue<br> 30°</div>
+  <div class="p-2 border hue000 orbitron">hue<br> 0°</div>
+  <div class="p-2 border hue330 orbitron">hue<br> 330°</div>
+  <div class="p-2 border hue300 orbitron">hue<br> 300°</div>
+  <div class="p-2 border hue270 orbitron">hue<br> 270°</div>
+  <div class="p-2 border hue240 orbitron">hue<br> 240°</div>
+  <div class="p-2 border hue210 orbitron">hue<br> 210°</div>
+  <div class="p-2 border hue180 orbitron">hue<br> 180°</div>
+  <div class="p-2 border hue150 orbitron">hue<br> 150°</div>
+  <div class="p-2 border hue120 orbitron">hue<br> 120°</div>
+  <div class="p-2 border hue090 orbitron">hue<br> 90°</div>
+</div>
+<div class="grid grid-cols-[repeat(5,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div>
+    <pre class="text-9xl">12</pre>
+  </div>
+  <div class="border border-sky-300" >
+    <img src="/color/hsl/12 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="grid grid-cols-6 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
+  <div class="p-2 border hue060 orbitron">hue<br> 60°</div>
+  <div class="p-2 border hue000 orbitron">hue<br> 0°</div>
+  <div class="p-2 border hue300 orbitron">hue<br> 300°</div>
+  <div class="p-2 border hue240 orbitron">hue<br> 240°</div>
+  <div class="p-2 border hue180 orbitron">hue<br> 180°</div>
+  <div class="p-2 border hue120 orbitron">hue<br> 120°</div>
+</div>
+<div class="grid grid-cols-[repeat(5,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div>
+    <pre class="text-9xl">6</pre>
+  </div>
+  <div class="border border-sky-300" >
+    <img src="/color/hsl/6 hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="grid grid-cols-[repeat(5,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div>
+    <pre class="text-9xl">RGB</pre>
+  </div>
+  <div class="border border-sky-300" >
+    <img src="/color/hsl/RGB hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="grid grid-cols-[repeat(5,minmax(0,1fr))] w-full h-6 gap-2 p-5">
+  <div>
+    <pre class="text-9xl">YMC</pre>
+  </div>
+  <div class="border border-sky-300" >
+    <img src="/color/hsl/YMC hsl wheel 10k2 opacity 100.png" class="w-100 object-cover rounded-md" />
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+  <div class="border border-sky-300" >
+    
+  </div>
+</div>
+
+
+
+<div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
+  <div class="p-2 border hue060 orbitron">hue<br> 60°</div>
+  <div class="p-2 border hue030 orbitron">hue<br> 30°</div>
+  <div class="p-2 border hue000 orbitron">hue<br> 0°</div>
+  <div class="p-2 border hue330 orbitron">hue<br> 330°</div>
+  <div class="p-2 border hue300 orbitron">hue<br> 300°</div>
+  <div class="p-2 border hue270 orbitron">hue<br> 270°</div>
+  <div class="p-2 border hue240 orbitron">hue<br> 240°</div>
+  <div class="p-2 border hue210 orbitron">hue<br> 210°</div>
+  <div class="p-2 border hue180 orbitron">hue<br> 180°</div>
+  <div class="p-2 border hue150 orbitron">hue<br> 150°</div>
+  <div class="p-2 border hue120 orbitron">hue<br> 120°</div>
+  <div class="p-2 border hue090 orbitron">hue<br> 90°</div>
+</div>
+<hr><br><hr><br><hr><br><hr><br><hr><br>
+<hsl60Bar />
+
+<NavigationBar />  
+
+
+
+<br><br><hr><br><hr><br>
+
+<skyTop /><skyTop /><skyTop /><skyTop /><br>
+
+<div class="text-xl"><skyTop /><skyTop /><br>
+</div>
+<span  class="text-4xl">ن🖵無 </span><br>
+<span  class="text-4xl">無🖵ن </span><br>
+<span class="text-2xl"><skyBottom /><skyBottom /></span> 
+
+<TailwindColorNameBar />
+</backgroundImages>
+
+
+
+
+
+
+<sub>Clock</sub><br><Clock />
+<sub>aardvarkComponent</sub><br><aardvarkComponent />
+<br>
+<sub>blackFlag</sub><br><blackFlag>blackFlag</blackFlag><br>
+<sub>clockFlag</sub><br><clockFlag>clockFlag</clockFlag><br>
+<sub>cyanFlag</sub><br><cyanFlag>cyanFlag</cyanFlag><br>
+<sub>Flag</sub><br><Flag>Flag</Flag><br><br>
+<sub>helloWorld</sub><br><helloWorld msg="Veronica was supposed to write somethign here"/><br>
+<sub>hueBar</sub><br><hueBar />
+<sub>magentaFlag</sub><br><magentaFlag>magentaFlag</magentaFlag><br><br><br>
+<sub>oO0</sub><br><oO0 /><br>
+<sub>rainbowDots</sub><br><rainbowDots /><br>
+<sub>seaOfNoughtBar</sub><br><seaOfNoughtBar />
+<sub>seaOfNoughtNavigationBar</sub><br><seaOfNoughtNavigationBar /><br><br><br>
+<sub>seaOfNoughtShipsLog</sub><br><seaOfNoughtShipsLog />
+<sub>shipsLogHeader</sub><br><shipsLogHeader />
+<sub>skyBottom</sub><br><skyBottom /><br>
+<sub>skyMini</sub><br><skyMini /><br>
+<sub>skyTop</sub><br><skyTop />
+<hr>
+  <sub>SplitOneTwoThree</sub><br><SplitOneTwoThree>
+    <template #one>
+      template #one
+    </template>
+    <template #two>
+      template #two
+    </template>
+    <template #four>
+      template #four
+    </template>
+  </SplitOneTwoThree>
+<hr>
+<br>
+<sub>zer0Oo</sub><br><whiteFlag>whiteFlag</whiteFlag><br><br>
+<sub>zer0Oo</sub><br><wordBar /><br>
+<sub>zer0Oo</sub><br><yearsBar /><br><br>
+<sub>zer0Oo</sub><br><yellowFlag>yellowFlag</yellowFlag><br><br><br>
+<sub>zer0Oo</sub><br>
+<zer0Oo />
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>
+<h1> exhibitations </h1>
+<h2> courage is contagious </h2>
+<h3> prepare testimony for Oregon Medical Board </h3>
+<h4> pinata</h4>
+<h5> limitations </h5>
+<h6> skills & healty habits </h6>
+<sub> Mastering Weak to Master Meek</sub>
+<sup>growingGenkiness</sup>
+<sub> Mastering Weak to Master Meek</sub>
+</center>
+
+  <div class="bg-[hsl(0,0%,0%,0%)]">
+📐
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 hubot-sans text-[33px] gap-1 p-1">
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+</div>
+<br>
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6 gap-2 p-2 hubot-sans text-[18px]">
+  <div class="border border-[hsl(0,0%,0%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center " ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,2%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,4%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,6%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,8%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,10%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,12%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,14%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,16%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,18%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,20%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,22%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,24%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,26%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,28%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,30%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,32%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,34%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,36%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,38%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,40%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,42%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,44%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,46%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,48%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=rblt2EtFfC4" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+
+  <div class="border border-[hsl(0,0%,50%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,50%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,52%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,54%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,56%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,58%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,60%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,62%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,64%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,68%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,70%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,72%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,74%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,76%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,78%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,80%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,82%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,84%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,86%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,88%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,90%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,92%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,94%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,96%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,98%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="border border-[hsl(0,0%,100%)] cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">125</a></div>
+</div>
+
+<center><div class="grid grid-cols-12 gap-10 p-5 text-[18px] alumni-sans-pinstripe-regular">
+  <div class="p-2 border hue060 orbitron"></div>
+  <div class="p-2 border hue030 orbitron"></div>
+  <div class="p-2 border hue000 orbitron"></div>
+  <div class="p-2 border hue330 orbitron"></div>
+  <div class="p-2 border hue300 orbitron">May</div>
+  <div class="p-2 border hue270 orbitron"></div>
+  <div class="p-2 border hue240 orbitron"></div>
+  <div class="p-2 border hue210 orbitron"></div>
+  <div class="p-2 border hue180 orbitron"></div>
+  <div class="p-2 border hue150 orbitron"></div>
+  <div class="p-2 border hue120 orbitron"></div>
+  <div class="p-2 border hue090 orbitron"></div>
+</div></center>
+
+<div class="grid grid-cols-[repeat(31,minmax(0,1fr))] w-full h-6 hubot-sans text-[33px] gap-1 p-1">
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+  <div class="cursor-pointer hover:opacity-30 text-[hsl(350,100%,88%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer"></a></div>
+</div>
+<br><br><br><hr><br><br><br><br>
+<span class="mea-culpa text-[44px]"> 🧭</span><span class="mea-culpa text-[55px]">© &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">∅⛵<br /></span>
+<br>
+<span class="mea-culpa text-[44px]"> ∅</span><span class="mea-culpa text-[55px]">⛵ &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;</span>
+<span class="mea-culpa-regular" style="font-size: 55px">🧭© <br /></span>
+<br>
+
+<span class="mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea</span>
+<span class="mea-culpa-regular" style="font-size: 55px">🧭⛵<br /></span>
+
+
+
+
+
+<ol>
+  <li>0- keep empty with elephant</li>
+  <li>1- todo for NaughtSea</li>
+  <li>2- git direcions </li>
+  <li>3- dailies</li>
+  <li>4- royalWe Patreon</li>
+  <li>5- monthlies Cindy's Kids Patreon</li>
+  <li>6- Forecasting </li>
+  <li>7- Yearlies</li>
+  <li>8- Perfection</li>
+  <li>9- logging</li>
+  <li>10- library of libraries</li>
+  <li>11- growingGenkiness</li>
+  <li>12- xhibitions</li>
+  <li>13- sorting hat</li>
+  <li>14- vocabulary K-LSATs</li>
+  <li>15- czech</li>
+  <li>16- RoyalWeThePeople Patreon - legal stuff</li>
+</ol>
+  🐗
+<span class="alumni-sans-pinstripe-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="alumni-sans-pinstripe-regular-italic">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="coral-pixels-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="hubot-sans">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="mea-culpa-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="orbitron">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-light">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-regular">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-medium">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-semibold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="rajdhani-bold">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUVWXYZ</span>
+<br>
+<span class="text-xs">🦔</span>
+<span class="text-sm">🦔</span>
+<span class="text-base">🦔</span>
+<span class="text-lg">🦔</span>
+<span class="text-2xl">🦔</span>
+<span class="text-3xl">🦔</span>
+<span class="text-4xl">🦔</span>
+<span class="text-5xl">🦔</span>
+<span class="text-6xl">🦔</span>
+<span class="text-7xl">🦔</span>
+<span class="text-8xl">🦔</span>
+<span class="text-9xl">🦔</span><br><br>
+<br>🦡
+<pre>pre-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</pre>
+
+<p>p-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</p>
+
+<sup>sup-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</sup>
+
+<sub>sub-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</sub>
+<br>
+<s>s-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</s>
+<br>
+<dfn>s-ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</dfn>
+<br>
+<code>code Orientation Orientation Orientation</code>
+<code class="block">code class="block" Orientation Orientation Orientation</code>
+<h1 class="text-center">h1 class="text-center" Orientation</h1>
+<hr>
+<h2 class="text-left">h2 class="text-left" Orientation</h2>
+<hr>
+<h3 class="text-right">h3 class="text-right" Orientation</h3>
+<hr>
+<h4 class="text-justify">h4 class="text-justify" Orientation Orientation Orientation</h4>
+<h5 class="flex justify-between">h5 class="flex justify-between" Orientation</h5> 
+<code class="block">Orientation Orientation Orientation</code>
+<center class="text-xs">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-sm">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-base">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-lg">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-2xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-3xl">ABCDEFGHIJKLMabcdefghijklm`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?nopqrstuvwxyzNOPQRSTUFVWYZ</center><br>
+<center class="text-4xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-5xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-6xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-7xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-8xl">`1234567890-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<center class="text-9xl">`-=~!@#$%^&*()_+[]\{}|;':",./<>?</center><br>
+<yearsBar /><br><br>
+<center class="text-9xl">📐</center><br>
+</div>
+
+
+
+<div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6">
+  <div>
+    <div class="grid grid-cols-[repeat(3,minmax(0,1fr))] w-full h-6">
+      <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+      <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+      <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+    </div>
+  </div>
+  <div>
+      <h1>rinse and repeat</h1>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123123123123</h2>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div></div>
+        <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div></div>
+        <div></div>
+      </div>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RoyalWeThePeople: Patreon</h3>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div></div><div></div>
+        <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div></div>
+      </div>
+      <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RoyalWeThePeople: Instagram</h4>
+      <div class="grid grid-cols-[repeat(6,minmax(0,1fr))] w-full h-6">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+      </div>
+      <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RoyalWeThePeople: Waltzing Matilda</h5>
+      <div class="grid grid-cols-[repeat(12,minmax(0,1fr))] w-full h-6">
+        <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+        <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+        <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+        <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+      </div>
+  </div>
+  <div>
+      🔵 diabeties (misspelled on porpoise🐬) 💉🧬🧪 🩸
+      Nutrition 
+      
+      stuff we eat for breakfast
+      
+      oatmeal
+      mixed frozen berries
+      yogurt
+      milk
+      
+      stuff we eat for lunch
+      
+      Prego Meat Sauce
+      pasta
+
+  </div>
+</div>
+<center class="text-xs"><skyMini /></center><br>
+<center class="text-sm"><skyMini /></center><br>
+<center class="text-base"><skyMini /></center><br>
+<center class="text-lg"><skyMini /></center><br>
+<center class="text-xl"><skyMini /></center><br>
+<center class="text-2xl"><skyMini /></center><br>
+<center class="text-3xl"><skyMini /></center><br>
+<center class="text-4xl"><skyMini /></center><br>
+<center class="text-5xl"><skyMini /></center><br>
+<center class="text-6xl"><skyMini /></center><br>
+<center class="text-7xl"><skyMini /></center><br>
+<center class="text-8xl"><skyMini /></center><br>
+<center class="text-9xl"><skyMini /></center><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div><center class="text-2xl"><seaOfNoughtBar /></center></div>
+<hueBar />
+<yearsBar /><br>
+<center class="text-2xl p-3"><skyTop /><skyTop /></center>
+<center>
+<span class="mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+<seaOfNoughtNavigationBar />
+<span class="mea-culpa-regular" style="font-size: 22px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
+Vite + Vue & tailwindcss &nbsp;⛵ </span>
+</center>
+
+📆📅⏰✅📁🗒️🧾📝📋
+<br>
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-30 text-violet-50 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-[hsl(0,0%,2%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-[hsl(0,0%,4%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-[hsl(0,0%,6%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-[hsl(0,0%,8%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-[hsl(0,0%,10%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-[hsl(0,0%,12%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-[hsl(0,0%,14%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-[hsl(0,0%,16%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-[hsl(0,0%,18%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-[hsl(0,0%,20%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-[hsl(0,0%,22%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-[hsl(0,0%,24%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-[hsl(0,0%,26%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-[hsl(0,0%,28%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-[hsl(0,0%,30%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-[hsl(0,0%,32%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-[hsl(0,0%,34%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-[hsl(0,0%,36%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-[hsl(0,0%,38%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-[hsl(0,0%,40%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-[hsl(0,0%,42%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-[hsl(0,0%,44%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-[hsl(0,0%,46%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-[hsl(0,0%,48%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-[hsl(0,0%,52%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-[hsl(0,0%,54%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-[hsl(0,0%,56%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-[hsl(0,0%,58%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-[hsl(0,0%,60%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-[hsl(0,0%,62%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-[hsl(0,0%,64%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-[hsl(0,0%,68%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-[hsl(0,0%,70%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-[hsl(0,0%,72%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-[hsl(0,0%,74%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-[hsl(0,0%,76%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-[hsl(0,0%,78%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-[hsl(0,0%,80%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-[hsl(0,0%,82%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-[hsl(0,0%,84%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-[hsl(0,0%,86%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-[hsl(0,0%,88%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-[hsl(0,0%,90%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-[hsl(0,0%,92%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-[hsl(0,0%,94%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-[hsl(0,0%,96%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-[hsl(0,0%,98%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-[hsl(0,0%,100%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-slate-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-yellow-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-orange-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-rose-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-fuchsia-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-violet-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-indigo-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-blue-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-sky-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-green-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-lime-50 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-orange-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-fuchsia-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-violet-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-blue-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-green-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-lime-100 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-orange-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-fuchsia-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-violet-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-blue-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-green-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-lime-200 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-orange-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-fuchsia-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-violet-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-blue-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-green-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-lime-300 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-slate-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-yellow-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-orange-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-rose-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-violet-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-indigo-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-blue-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-lime-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-yellow-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-orange-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-rose-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-violet-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-indigo-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-blue-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-lime-500 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-yellow-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-rose-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-fuchsia-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-violet-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-indigo-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-blue-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-green-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-lime-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-slate-400 cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-yellow-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-rose-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-fuchsia-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-violet-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-indigo-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-blue-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-green-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-lime-600 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-yellow-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-orange-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-rose-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-fuchsia-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-violet-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-indigo-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-blue-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-green-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-lime-700 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-yellow-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-orange-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-green-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-lime-800 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-yellow-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-orange-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-rose-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-fuchsia-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-violet-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-indigo-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-blue-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-green-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-lime-900 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-yellow-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-orange-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-rose-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-fuchsia-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-violet-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-indigo-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-blue-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-green-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-lime-950 cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-[hsl(0,0%,100%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-[hsl(0,0%,98%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-[hsl(0,0%,96%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-[hsl(0,0%,94%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-[hsl(0,0%,92%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-[hsl(0,0%,90%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-[hsl(0,0%,88%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-[hsl(0,0%,86%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-[hsl(0,0%,84%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-[hsl(0,0%,82%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-[hsl(0,0%,80%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-[hsl(0,0%,78%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-[hsl(0,0%,76%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-[hsl(0,0%,74%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-[hsl(0,0%,72%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-[hsl(0,0%,70%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-[hsl(0,0%,68%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-[hsl(0,0%,66%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-[hsl(0,0%,64%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-[hsl(0,0%,62%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-[hsl(0,0%,60%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-[hsl(0,0%,58%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-[hsl(0,0%,56%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-[hsl(0,0%,54%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-[hsl(0,0%,52%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-[hsl(0,0%,48%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-[hsl(0,0%,46%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-[hsl(0,0%,44%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-[hsl(0,0%,42%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-[hsl(0,0%,40%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-[hsl(0,0%,38%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-[hsl(0,0%,36%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-[hsl(0,0%,34%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-[hsl(0,0%,32%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-[hsl(0,0%,30%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-[hsl(0,0%,28%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-[hsl(0,0%,26%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-[hsl(0,0%,24%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-[hsl(0,0%,22%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-[hsl(0,0%,20%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-[hsl(0,0%,18%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-[hsl(0,0%,16%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-[hsl(0,0%,14%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-[hsl(0,0%,12%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-[hsl(0,0%,10%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-[hsl(0,0%,8%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-[hsl(0,0%,6%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-[hsl(0,0%,4%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-[hsl(0,0%,2%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-30 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<center>
+<h1> exhibitations </h1>
+<h2> courage is contagious </h2>
+<h3> prepare testimony for Oregon Medical Board </h3>
+<h4> pinata</h4>
+<h5> limitations </h5>
+<h6> skills & healty habits </h6>
+<sub> Mastering Weak to Master Meek</sub>
+<sup>growingGenkiness</sup>
+<sub> Mastering Weak to Master Meek</sub>
+</center>
+<br>
+<nav class="flex flex-wrap items-center justify-center">
+  <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/">&nbsp;| 🏠 Crow's Nest |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-300" to="/anchor">&nbsp;| ⚓ Anchor |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-200" to="/royalwe">&nbsp;| 🤴 RoyalWe |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/forecastle">&nbsp;| 🏰 forecastle |&nbsp;</RouterLink>
+  <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-sky-50 hover:text-purple-300" target="_blank">✨ perfection 👌</a>
+  <RouterLink class="p-2.5; text-sky-100 hover:text-purple-100" to="/library">&nbsp;| library 📚 |&nbsp;</routerLink>
+  <RouterLink class="p-2.5; text-sky-200 hover:text-purple-300" to="/exhibits">&nbsp;| exhibits 👸|&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-300 hover:text-purple-200" to="/vocabulary">&nbsp;| vocabulary 📖 |&nbsp;</RouterLink>
+  <RouterLink class="p-2.5; text-sky-400 hover:text-purple-400" to="/royalwethepeople">&nbsp;| RoyalWeThePeople 👑 |&nbsp;</RouterLink>
+</nav><br>
+
+<center>
+<span class="font-mea-culpa text-[33px]"> ∅© </span>
+<span class="mea-culpa-regular" style="font-size: 55px">NaughtSea &nbsp;&nbsp;&nbsp;<br /></span>
+<skyTop /><skyTop /><br>
+<span class="mea-culpa-regular" style="font-size: 22px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⾈&nbsp;with
+Vite + Vue & tailwindcss &nbsp;⛵ </span><br /><br />
+
+</center>
+
+
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6 gap-2">
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏠</a></div>
+  <div class="bg-amber-500 cursor-pointer hover:opacity-30 text-violet-950 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/anchor" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⚓</a></div>
+  <div class="bg-red-700 cursor-pointer hover:opacity-30 text-violet-800 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/royalwe" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🤴</a></div>
+  <div class="bg-pink-800 cursor-pointer hover:opacity-30 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/forecastle" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🏰</a></div>
+  <div class="bg-purple-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">✨👌</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/library" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📚</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-30 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-cyan-800 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/exhibits" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👸</a></div>
+  <div class="bg-teal-700 cursor-pointer hover:opacity-30 text-violet-800 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-600 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/vocabulary" class="block w-full h-full" target="_blank" rel="noopener noreferrer">📖</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-30 text-violet-950 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-30 text-violet-400 text-center" ><a href="http://localhost:5173/royalwethepeople" class="block w-full h-full" target="_blank" rel="noopener noreferrer">👑</a></div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">hue090</div>
+  <div class="p-2 border hue060">hue060</div>
+  <div class="p-2 border hue030">hue030</div>
+  <div class="p-2 border hue000">hue000</div>
+  <div class="p-2 border hue330">hue330</div>
+  <div class="p-2 border hue300">hue300</div>
+  <div class="p-2 border hue270">hue270</div>
+  <div class="p-2 border hue240">hue240</div>
+  <div class="p-2 border hue210">hue210</div>
+  <div class="p-2 border hue180">hue180</div>
+  <div class="p-2 border hue150">hue150</div>
+  <div class="p-2 border hue120">hue120</div>
+  <div class="p-2 border hue090">hue090</div>
+</div>
+</center>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">75</a></div>
+  <div class="bg-[hsl(0,0%,2%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">76</a></div>
+  <div class="bg-[hsl(0,0%,4%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">77</a></div>
+  <div class="bg-[hsl(0,0%,6%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">78</a></div>
+  <div class="bg-[hsl(0,0%,8%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">79</a></div>
+  <div class="bg-[hsl(0,0%,10%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">80</a></div>
+  <div class="bg-[hsl(0,0%,12%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">81</a></div>
+  <div class="bg-[hsl(0,0%,14%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">82</a></div>
+  <div class="bg-[hsl(0,0%,16%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">83</a></div>
+  <div class="bg-[hsl(0,0%,18%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">84</a></div>
+  <div class="bg-[hsl(0,0%,20%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">85</a></div>
+  <div class="bg-[hsl(0,0%,22%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">86</a></div>
+  <div class="bg-[hsl(0,0%,24%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">87</a></div>
+  <div class="bg-[hsl(0,0%,26%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">88</a></div>
+  <div class="bg-[hsl(0,0%,28%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">89</a></div>
+  <div class="bg-[hsl(0,0%,30%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">90</a></div>
+  <div class="bg-[hsl(0,0%,32%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">91</a></div>
+  <div class="bg-[hsl(0,0%,34%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">92</a></div>
+  <div class="bg-[hsl(0,0%,36%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">93</a></div>
+  <div class="bg-[hsl(0,0%,38%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">94</a></div>
+  <div class="bg-[hsl(0,0%,40%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">95</a></div>
+  <div class="bg-[hsl(0,0%,42%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">96</a></div>
+  <div class="bg-[hsl(0,0%,44%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">97</a></div>
+  <div class="bg-[hsl(0,0%,46%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">98</a></div>
+  <div class="bg-[hsl(0,0%,48%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">99</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">100</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">101</a></div>
+  <div class="bg-[hsl(0,0%,52%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">102</a></div>
+  <div class="bg-[hsl(0,0%,54%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">103</a></div>
+  <div class="bg-[hsl(0,0%,56%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">104</a></div>
+  <div class="bg-[hsl(0,0%,58%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">105</a></div>
+  <div class="bg-[hsl(0,0%,60%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">106</a></div>
+  <div class="bg-[hsl(0,0%,62%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">107</a></div>
+  <div class="bg-[hsl(0,0%,64%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">108</a></div>
+  <div class="bg-[hsl(0,0%,68%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">109</a></div>
+  <div class="bg-[hsl(0,0%,70%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">110</a></div>
+  <div class="bg-[hsl(0,0%,72%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">111</a></div>
+  <div class="bg-[hsl(0,0%,74%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">112</a></div>
+  <div class="bg-[hsl(0,0%,76%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">113</a></div>
+  <div class="bg-[hsl(0,0%,78%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">114</a></div>
+  <div class="bg-[hsl(0,0%,80%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">115</a></div>
+  <div class="bg-[hsl(0,0%,82%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">116</a></div>
+  <div class="bg-[hsl(0,0%,84%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">117</a></div>
+  <div class="bg-[hsl(0,0%,86%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">118</a></div>
+  <div class="bg-[hsl(0,0%,88%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">119</a></div>
+  <div class="bg-[hsl(0,0%,90%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">120</a></div>
+  <div class="bg-[hsl(0,0%,92%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">121</a></div>
+  <div class="bg-[hsl(0,0%,94%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">122</a></div>
+  <div class="bg-[hsl(0,0%,96%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">123</a></div>
+  <div class="bg-[hsl(0,0%,98%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">124</a></div>
+  <div class="bg-[hsl(0,0%,100%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">125</a></div>
+</div>
+
+
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">75</a></div>
+  <div class="bg-[hsl(0,0%,2%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">76</a></div>
+  <div class="bg-[hsl(0,0%,4%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">77</a></div>
+  <div class="bg-[hsl(0,0%,6%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">78</a></div>
+  <div class="bg-[hsl(0,0%,8%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">79</a></div>
+  <div class="bg-[hsl(0,0%,10%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">80</a></div>
+  <div class="bg-[hsl(0,0%,12%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">81</a></div>
+  <div class="bg-[hsl(0,0%,14%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">82</a></div>
+  <div class="bg-[hsl(0,0%,16%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">83</a></div>
+  <div class="bg-[hsl(0,0%,18%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">84</a></div>
+  <div class="bg-[hsl(0,0%,20%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">85</a></div>
+  <div class="bg-[hsl(0,0%,22%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">86</a></div>
+  <div class="bg-[hsl(0,0%,24%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">87</a></div>
+  <div class="bg-[hsl(0,0%,26%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">88</a></div>
+  <div class="bg-[hsl(0,0%,28%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">89</a></div>
+  <div class="bg-[hsl(0,0%,30%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">90</a></div>
+  <div class="bg-[hsl(0,0%,32%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">91</a></div>
+  <div class="bg-[hsl(0,0%,34%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">92</a></div>
+  <div class="bg-[hsl(0,0%,36%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">93</a></div>
+  <div class="bg-[hsl(0,0%,38%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">94</a></div>
+  <div class="bg-[hsl(0,0%,40%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">95</a></div>
+  <div class="bg-[hsl(0,0%,42%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">96</a></div>
+  <div class="bg-[hsl(0,0%,44%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">97</a></div>
+  <div class="bg-[hsl(0,0%,46%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">98</a></div>
+  <div class="bg-[hsl(0,0%,48%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">99</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">0</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-[hsl(0,0%,52%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-[hsl(0,0%,54%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-[hsl(0,0%,56%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-[hsl(0,0%,58%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-[hsl(0,0%,60%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-[hsl(0,0%,62%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-[hsl(0,0%,64%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-[hsl(0,0%,68%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-[hsl(0,0%,70%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">10</a></div>
+  <div class="bg-[hsl(0,0%,72%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">11</a></div>
+  <div class="bg-[hsl(0,0%,74%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">12</a></div>
+  <div class="bg-[hsl(0,0%,76%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">13</a></div>
+  <div class="bg-[hsl(0,0%,78%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">14</a></div>
+  <div class="bg-[hsl(0,0%,80%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">15</a></div>
+  <div class="bg-[hsl(0,0%,82%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">16</a></div>
+  <div class="bg-[hsl(0,0%,84%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">17</a></div>
+  <div class="bg-[hsl(0,0%,86%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">18</a></div>
+  <div class="bg-[hsl(0,0%,88%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">19</a></div>
+  <div class="bg-[hsl(0,0%,90%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">20</a></div>
+  <div class="bg-[hsl(0,0%,92%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">21</a></div>
+  <div class="bg-[hsl(0,0%,94%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">22</a></div>
+  <div class="bg-[hsl(0,0%,96%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">23</a></div>
+  <div class="bg-[hsl(0,0%,98%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">24</a></div>
+  <div class="bg-[hsl(0,0%,100%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">25</a></div>
+</div>
+<hr>
+<br>
+<br>
+<hr>
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-[hsl(0,0%,100%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-[hsl(0,0%,98%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-[hsl(0,0%,96%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-[hsl(0,0%,94%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-[hsl(0,0%,92%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-[hsl(0,0%,90%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-[hsl(0,0%,88%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-[hsl(0,0%,86%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-[hsl(0,0%,84%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-[hsl(0,0%,82%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-[hsl(0,0%,80%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-[hsl(0,0%,78%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-[hsl(0,0%,76%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-[hsl(0,0%,74%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-[hsl(0,0%,72%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-[hsl(0,0%,70%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-[hsl(0,0%,68%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-[hsl(0,0%,66%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-[hsl(0,0%,64%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-[hsl(0,0%,62%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-[hsl(0,0%,60%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-[hsl(0,0%,58%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-[hsl(0,0%,56%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-[hsl(0,0%,54%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-[hsl(0,0%,52%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-[hsl(0,0%,48%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-[hsl(0,0%,46%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-[hsl(0,0%,44%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-[hsl(0,0%,42%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-[hsl(0,0%,40%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-[hsl(0,0%,38%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-[hsl(0,0%,36%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-[hsl(0,0%,34%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-[hsl(0,0%,32%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-[hsl(0,0%,30%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-[hsl(0,0%,28%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-[hsl(0,0%,26%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-[hsl(0,0%,24%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-[hsl(0,0%,22%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-[hsl(0,0%,20%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-[hsl(0,0%,18%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-[hsl(0,0%,16%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-[hsl(0,0%,14%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-[hsl(0,0%,12%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-[hsl(0,0%,10%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-[hsl(0,0%,8%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-[hsl(0,0%,6%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-[hsl(0,0%,4%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-[hsl(0,0%,2%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-slate-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-orange-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-fuchsia-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-violet-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-blue-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-sky-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-green-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-lime-50 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-orange-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-fuchsia-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-violet-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-blue-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-green-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-lime-100 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-orange-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-fuchsia-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-violet-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-blue-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-green-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-lime-200 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-orange-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-fuchsia-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-violet-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-blue-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-green-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-lime-300 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-slate-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-yellow-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-orange-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-rose-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-violet-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-indigo-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-blue-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-lime-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-yellow-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-orange-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-rose-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-violet-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-indigo-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-blue-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-lime-500 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-yellow-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-rose-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-fuchsia-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-violet-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-indigo-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-blue-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-green-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-lime-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,50%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-slate-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-yellow-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-rose-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-fuchsia-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-violet-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-indigo-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-blue-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-green-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-lime-600 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-yellow-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-orange-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-rose-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-fuchsia-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-violet-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-indigo-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-blue-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-green-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-lime-700 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-yellow-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-orange-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-green-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-lime-800 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-yellow-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-orange-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-rose-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-fuchsia-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-violet-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-indigo-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-blue-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-green-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-lime-900 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-yellow-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-orange-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-rose-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-fuchsia-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-violet-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-indigo-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-blue-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-green-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-lime-950 cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(51,minmax(0,1fr))] w-full h-6">
+  <div class="bg-[hsl(0,0%,0%)] cursor-pointer hover:opacity-80 text-violet-50 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⓪</a></div>
+  <div class="bg-[hsl(0,0%,2%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">①</a></div>
+  <div class="bg-[hsl(0,0%,4%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">②</a></div>
+  <div class="bg-[hsl(0,0%,6%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">③</a></div>
+  <div class="bg-[hsl(0,0%,8%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">④</a></div>
+  <div class="bg-[hsl(0,0%,10%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑤</a></div>
+  <div class="bg-[hsl(0,0%,12%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑥</a></div>
+  <div class="bg-[hsl(0,0%,14%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑦</a></div>
+  <div class="bg-[hsl(0,0%,16%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑧</a></div>
+  <div class="bg-[hsl(0,0%,18%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑨</a></div>
+  <div class="bg-[hsl(0,0%,20%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑩</a></div>
+  <div class="bg-[hsl(0,0%,22%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑪</a></div>
+  <div class="bg-[hsl(0,0%,24%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑫</a></div>
+  <div class="bg-[hsl(0,0%,26%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑬</a></div>
+  <div class="bg-[hsl(0,0%,28%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑭</a></div>
+  <div class="bg-[hsl(0,0%,30%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑮</a></div>
+  <div class="bg-[hsl(0,0%,32%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑯</a></div>
+  <div class="bg-[hsl(0,0%,34%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑰</a></div>
+  <div class="bg-[hsl(0,0%,36%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑱</a></div>
+  <div class="bg-[hsl(0,0%,38%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑲</a></div>
+  <div class="bg-[hsl(0,0%,40%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">⑳</a></div>
+  <div class="bg-[hsl(0,0%,42%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉑</a></div>
+  <div class="bg-[hsl(0,0%,44%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉒</a></div>
+  <div class="bg-[hsl(0,0%,46%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉓</a></div>
+  <div class="bg-[hsl(0,0%,48%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉔</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,100%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉕</a></div>
+  <div class="bg-[hsl(0,0%,50%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉖</a></div>
+  <div class="bg-[hsl(0,0%,52%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉗</a></div>
+  <div class="bg-[hsl(0,0%,54%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉘</a></div>
+  <div class="bg-[hsl(0,0%,56%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉙</a></div>
+  <div class="bg-[hsl(0,0%,58%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉚</a></div>
+  <div class="bg-[hsl(0,0%,60%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉛</a></div>
+  <div class="bg-[hsl(0,0%,62%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉜</a></div>
+  <div class="bg-[hsl(0,0%,64%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉝</a></div>
+  <div class="bg-[hsl(0,0%,68%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉞</a></div>
+  <div class="bg-[hsl(0,0%,70%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㉟</a></div>
+  <div class="bg-[hsl(0,0%,72%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊱</a></div>
+  <div class="bg-[hsl(0,0%,74%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊲</a></div>
+  <div class="bg-[hsl(0,0%,76%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊳</a></div>
+  <div class="bg-[hsl(0,0%,78%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊴</a></div>
+  <div class="bg-[hsl(0,0%,80%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊵</a></div>
+  <div class="bg-[hsl(0,0%,82%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊶</a></div>
+  <div class="bg-[hsl(0,0%,84%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊷</a></div>
+  <div class="bg-[hsl(0,0%,86%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊸</a></div>
+  <div class="bg-[hsl(0,0%,88%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊹</a></div>
+  <div class="bg-[hsl(0,0%,90%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊺</a></div>
+  <div class="bg-[hsl(0,0%,92%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊻</a></div>
+  <div class="bg-[hsl(0,0%,94%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊼</a></div>
+  <div class="bg-[hsl(0,0%,96%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊽</a></div>
+  <div class="bg-[hsl(0,0%,98%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊾</a></div>
+  <div class="bg-[hsl(0,0%,100%)] cursor-pointer hover:opacity-80 text-[hsl(0,0%,0%)] text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">㊿</a></div>
+</div>
+
+
+<pre class="rajdhani-light">rajdhani-light </pre>
+  <pre class="rajdhani-regular">rajdhani-regular</pre>
+  <pre class="rajdhani-medium">rajdhani-medium </pre>
+  <pre class="rajdhani-semibold">rajdhani-semibold</pre>
+  <pre class="rajdhani-bold">rajdhani-bold</pre>
+  <pre class="orbitron">orbitron </pre>
+  <pre class="mea-culpa-regular">mea-culpa-regular</pre>
+  <pre class="hubot-sans">hubot-sans</pre>
+  <pre class="alumni-sans-pinstripe-regular">alumni-sans-pinstripe-regular</pre>
+  <pre class="alumni-sans-pinstripe-regular-italic">alumni-sans-pinstripe-regular-italic</pre>
+  <pre class="coral-pixels-regular">coral-pixels-regular</pre>
+<hr>
+<div class="grid grid-cols-[repeat(13,minmax(0,1fr))] w-full h-6" style="background-color: #22220080;">
+  <div class="cursor-pointer hover:opacity-30 text-center" ><pre>pre</pre></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><dfn>dfn</dfn><code>code</code></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><p>p</p></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><span>span</span></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><h1>h1</h1></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><h2>h2</h2></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><h3>h3</h3></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><h4>h4</h4></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><h5>h5</h5></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><h6>h6</h6></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><strong>strong</strong><em>em</em></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><blockquote>blockquote</blockquote></div>
+  <div class="cursor-pointer hover:opacity-30 text-center" ><sup>sup</sup><sub>sub</sub></div>
+</div>
+<br>
+<br>
+<hr>
+<hr>
+<br>
+<br>
+<hr>
+<br>
+🔵 diabeties (misspelled on porpoise🐬) 💉🧬🧪 🩸
+
+<div class="grid grid-cols-[repeat(25,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🧬</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">💉</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">🔵</a></div>
+</div>
+ Nutrition 
+ <br>
+stuff we eat for breakfast
+ <br>
+ oatmeal
+ mixed frozen berries
+ yogurt
+ milk
+ <br>
+ stuff we eat for lunch
+ <br>
+Prego Meat Sauce
+pasta
+
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+RoyalWeThePeople: Patreon
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+RoyalWeThePeople: Instagram
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+RoyalWeThePeople: Waltzing Matilda
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+<br>
+
+
+
+
+<div class="grid grid-cols-[repeat(11,minmax(0,1fr))] w-full h-6">
+  <div class="bg-sky-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">50</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">100</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">200</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">300</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">400</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">500</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">600</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">700</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">800</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">900</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">950</a></div>
+</div>
+words
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+ RoyalWeThePeople
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+RoyalWeThePeople: Patreon
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+RoyalWeThePeople: Instagram
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+RoyalWeThePeople: Waltzing Matilda
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+</div>
+<br>
+
+
+<br>
+<hr>
+<hr>
+<br>
+<br>
+<hr>
+<code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">hue090</div>
+  <div class="p-2 border hue060">hue060</div>
+  <div class="p-2 border hue030">hue030</div>
+  <div class="p-2 border hue000">hue000</div>
+  <div class="p-2 border hue330">hue330</div>
+  <div class="p-2 border hue300">hue300</div>
+  <div class="p-2 border hue270">hue270</div>
+  <div class="p-2 border hue240">hue240</div>
+  <div class="p-2 border hue210">hue210</div>
+  <div class="p-2 border hue180">hue180</div>
+  <div class="p-2 border hue150">hue150</div>
+  <div class="p-2 border hue120">hue120</div>
+  <div class="p-2 border hue090">hue090</div>
+</div>
+</center>
+<br />
+🖐️
+<HelloWorld msg="Vite HelloWorld Vue" />🖐️
+<center><Flag>Let's manifest some tests! !! !!!</Flag><br /></center>
+<center><skyBottom /><skyBottom /></center>
+<center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
+<center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
+<center><rainbowDots /></center>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">⬤</div>
+  <div class="p-2 border hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></div>
+  <div class="p-2 border hue030"><a href="http://localhost:5173/royalwethepeople" target="_blank">👑</a></div>
+  <div class="p-2 border hue000">⬤</div>
+  <div class="p-2 border hue330">⬤</div>
+  <div class="p-2 border hue300">⬤</div>
+  <div class="p-2 border hue270">⬤</div>
+  <div class="p-2 border hue240">⬤</div>
+  <div class="p-2 border hue210"><a href="http://localhost:4090/" target="_blank">🧿</a></div>
+  <div class="p-2 border hue180"><a href="http://localhost:5173/" target="_blank">⛵</a></div>
+  <div class="p-2 border hue150">⬤</div>
+  <div class="p-2 border hue120">⬤</div>
+  <div class="p-2 border hue090">⬤</div>
+</div>
+</center>
+
+
+
+<code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
+
+<div class="grid grid-cols-11 gap-1 border border-gray-300">
+  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
+  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
+  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
+  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
+  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
+  <div class="p-2 border border-gray-300 text-center text-base font-normal"><h6>oO0Oo</h6></div>
+  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
+  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
+  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
+  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
+  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
+</div>
+
+
+
+
+
+<!--
+     <pre> https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre>
+    <dfn>interesting to see oklch being used so much
+      ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn>
+    &nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub><br />
+-->
+<div style="text-align: right;">
+<oO0 /><zer0Oo /></div>
+
+
+
+<hr>
+
+<br>
+<br>
+<hr>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+
+<div class="grid grid-cols-[repeat(17,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<br>
+
+
+<div class="grid grid-cols-[repeat(22,minmax(0,1fr))] w-full h-6">
+  <div class="bg-sky-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">50</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">100</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">200</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">300</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">400</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">500</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">600</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">700</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">800</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">900</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">950</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">950</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">900</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">800</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">700</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">600</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">500</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">400</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">300</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">200</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">100</a></div>
+  <div class="bg-sky-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">50</a></div>
+</div>
+
+
+⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚ ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿ 十
+
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-purple-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-cyan-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">10</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">11</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">12</a></div>
+</div>
+<br>
+
+
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-yellow-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-amber-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-orange-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-red-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-rose-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-pink-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-fuchsia-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+  <div class="bg-purple-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">8</a></div>
+  <div class="bg-violet-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">9</a></div>
+  <div class="bg-indigo-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">+</a></div>
+  <div class="bg-blue-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">2</a></div>
+  <div class="bg-cyan-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">3</a></div>
+  <div class="bg-teal-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">4</a></div>
+  <div class="bg-emerald-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">5</a></div>
+  <div class="bg-green-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">6</a></div>
+  <div class="bg-lime-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">7</a></div>
+</div>
+<br>
+
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-sky-50 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" ><a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="block w-full h-full" target="_blank" rel="noopener noreferrer">1</a></div>
+  <!-- Repeat with different colors or reuse as needed -->
+  <div class="bg-sky-100 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 11')">11</div>
+  <div class="bg-sky-200 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 12')">12</div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 13')">13</div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 14')">14</div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 15')">15</div>
+  <div class="bg-sky-600 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 16')">16</div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 17')">17</div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 18')">18</div>
+  <div class="bg-sky-900 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 19')">19</div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 20')">20</div>
+</div>
+
+
+
+
+<h1>RoyalWeThePeople</h1>
+<br><br>
+<div class="grid grid-cols-[repeat(50,minmax(0,1fr))] w-full h-6">
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 1')">1</div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 2')">2</div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 3')">3</div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 4')">4</div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 5')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 6')"></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 7')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 8')"></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 9')"></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 10')"></div>
+
+  <!-- Repeat with different colors or reuse as needed -->
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 11')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 12')"></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 13')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 14')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 15')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 16')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 17')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 18')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 19')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80 text-violet-600 text-center" onclick="alert('Clicked 20')"></div>
+
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80" onclick="alert('Clicked 21')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 2')"></div>
+  <div class="bg-sky-700 cursor-pointer hover:opacity-80" onclick="alert('Clicked 3')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 4')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 5')"></div>
+  
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80" onclick="alert('Clicked 1')">1</div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 2')">2</div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 3')">3</div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 4')"></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80" onclick="alert('Clicked 5')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 6')"></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80" onclick="alert('Clicked 7')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 8')"></div>
+  <div class="bg-sky-500 cursor-pointer hover:opacity-80" onclick="alert('Clicked 9')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 10')"></div>
+
+  <!-- Repeat with different colors or reuse as needed -->
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 11')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 12')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 13')"></div>
+  <div class="bg-sky-800 cursor-pointer hover:opacity-80" onclick="alert('Clicked 14')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 15')"></div>
+  <div class="bg-sky-950 cursor-pointer hover:opacity-80" onclick="alert('Clicked 16')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 17')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 18')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 19')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 20')"></div>
+
+    <div class="bg-sky-500 cursor-pointer hover:opacity-80" onclick="alert('Clicked 1')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 2')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 3')"></div>
+  <div class="bg-sky-400 cursor-pointer hover:opacity-80" onclick="alert('Clicked 4')"></div>
+  <div class="bg-sky-300 cursor-pointer hover:opacity-80" onclick="alert('Clicked 5')"></div>
+  
+</div>
+
+
+<br />
+<br />
+    <pre>
+https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre
+    >
+  
+<br>
+<hr>
+<hr>
+<br>
+<br>
+<hr>
+<code>https://python.plainenglish.io/i-wish-i-knew-these-10-python-libraries-when-i-started-developing-1c819070fd5a</code>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">hue090</div>
+  <div class="p-2 border hue060">hue060</div>
+  <div class="p-2 border hue030">hue030</div>
+  <div class="p-2 border hue000">hue000</div>
+  <div class="p-2 border hue330">hue330</div>
+  <div class="p-2 border hue300">hue300</div>
+  <div class="p-2 border hue270">hue270</div>
+  <div class="p-2 border hue240">hue240</div>
+  <div class="p-2 border hue210">hue210</div>
+  <div class="p-2 border hue180">hue180</div>
+  <div class="p-2 border hue150">hue150</div>
+  <div class="p-2 border hue120">hue120</div>
+  <div class="p-2 border hue090">hue090</div>
+</div>
+</center>
+<br />
+🖐️
+<HelloWorld msg="Vite HelloWorld Vue" />🖐️
+<center><Flag>Let's manifest some tests! !! !!!</Flag><br /></center>
+<center><skyBottom /><skyBottom /></center>
+<center><Flag>ABCDEFGHIJKLM01234567890NOPQRSTUVWXYZ</Flag></center>
+<center><Flag>abcdefghijklmnopqrstuvwxyz</Flag></center>
+<center><rainbowDots /></center>
+<center>
+<div class="grid grid-cols-13 gap-2">
+  <div class="p-2 border hue090">⬤</div>
+  <div class="p-2 border hue060"><a href="file:///D:/125/html/level_zer0.html" target="_blank">🟡</a></div>
+  <div class="p-2 border hue030"><a href="http://localhost:5173/royalwethepeople" target="_blank">👑</a></div>
+  <div class="p-2 border hue000">⬤</div>
+  <div class="p-2 border hue330">⬤</div>
+  <div class="p-2 border hue300">⬤</div>
+  <div class="p-2 border hue270">⬤</div>
+  <div class="p-2 border hue240">⬤</div>
+  <div class="p-2 border hue210"><a href="http://localhost:4090/" target="_blank">🧿</a></div>
+  <div class="p-2 border hue180"><a href="http://localhost:5173/" target="_blank">⛵</a></div>
+  <div class="p-2 border hue150">⬤</div>
+  <div class="p-2 border hue120">⬤</div>
+  <div class="p-2 border hue090">⬤</div>
+</div>
+</center>
+
+
+
+<code class="orbitron"><center>&nbsp;&nbsp;&nbsp;⾈ exploring https://tailwindcss.com/ ⛵</center><br></code>
+
+<div class="grid grid-cols-11 gap-1 border border-gray-300">
+  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
+  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
+  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
+  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
+  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
+  <div class="p-2 border border-gray-300 text-center text-base font-normal"><h6>oO0Oo</h6></div>
+  <div class="p-2 border border-gray-300 text-center text-lg font-medium"><h5>oO0Oo</h5></div>
+  <div class="p-2 border border-gray-300 text-center text-xl font-medium"><h4>oO0Oo</h4></div>
+  <div class="p-2 border border-gray-300 text-center text-2xl font-semibold"><h3>oO0Oo</h3></div>
+  <div class="p-2 border border-gray-300 text-center text-3xl font-semibold"><h2>oO0Oo</h2></div>
+  <div class="p-2 border border-gray-300 text-center text-4xl font-bold"><h1>oO0Oo</h1></div>
+</div>
+
+
+
+
+
+<!--
+     <pre> https://en.wikipedia.org/wiki/File:Wanna_Work_Together%3F_with_subtitles_-_Creative_Commons.ogv</pre>
+    <dfn>interesting to see oklch being used so much
+      ....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dfn>
+    &nbsp;&nbsp;&nbsp;<sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meleneth: kitemite kudasai!</sub><br />
+-->
+<div style="text-align: right;">
+<oO0 /><zer0Oo /></div>
+ᨖ亗
+</template>
