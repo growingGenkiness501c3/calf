@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="2052"
+   height="1623"
+   viewBox="0 0 2052 1623"
+   sodipodi:docname="TurtleB2.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.29805915"
+     inkscape:cx="842.11473"
+     inkscape:cy="1182.6512"
+     inkscape:window-width="1561"
+     inkscape:window-height="1027"
+     inkscape:window-x="1774"
+     inkscape:window-y="687"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       style="fill:#000000"
+       d="M 1017,660.08511 C 1004.8039,658.488 994.29209,653.49598 984.88082,644.83186 972.31257,633.26137 965.69441,617.62461 965.69441,599.5 c 0,-16.64932 5.21068,-30.10772 16.16735,-41.75781 8.10821,-8.62138 14.55432,-12.8757 24.81044,-16.37445 6.8932,-2.35155 9.3202,-2.66413 20.3278,-2.61805 20.1587,0.0844 30.791,4.3329 44.1593,17.64541 7.4468,7.4157 13.6516,18.38408 15.8991,28.1049 1.5578,6.73809 1.553,22.62451 -0.01,30 -4.1145,19.42706 -20.057,36.89401 -39.5494,43.33099 -6.7549,2.23069 -22.048,3.36093 -30.5,2.25412 z"
+       id="path1" />
+  </g>
+</svg>
