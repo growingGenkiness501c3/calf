@@ -24,153 +24,34 @@ import SplitOneTwoThree from '@/components/aardvark_templates/SplitOneTwoThree.v
 import SplitIchiNiiSan from '@/components/aardvark_templates/SplitIchiNiiSan.vue'
 import backgroundImages from "@/components/backgroundImages.vue"
 import Ikigai from "@/views/Ikigai.vue"
-import cowCombined from "@/components/cow/cowCombined.vue"
-import sailboatCombined from "@/components/sailboat/sailboatCombined.vue"
-import turtleCombined from "@/components/turtle/turtleCombined.vue"
-import unicornCombined from "@/components/unicorn/unicornCombined.vue"
+import cowCombined from "@/components/ji/cow/cowCombined.vue"
+import sailboatCombined from "@/components/ji/sailboat/sailboatCombined.vue"
+import turtleCombined from "@/components/ji/turtle/turtleCombined.vue"
+import unicornCombined from "@/components/ji/unicorn/unicornCombined.vue"
+import smilingWTearsCombined from "@/components/ji/smilingWTears/smilingWTearsCombined.vue"
+
+import mutedColorGrid from "./components/color/mutedColors/mutedColorGrid.vue"
+import mutedColorGridCarot from "./components/color/mutedColors/mutedColorGridCarot.vue"
+
 import { RouterLink, RouterView } from "vue-router"
 
 </script>
 <template><code>🐮牛🐄 https://www.twitch.tv/diana_juliet129/videos</code>
 <backgroundImages>
-<!--<div class="grid grid-cols-18 gap-1 p-1 text-[77px] updock-regular">
-  <div class="bg-[#000] text-center items-center text-sky-50">#000</div>                        
-  <div class="bg-[#100] text-center items-center text-sky-100">#100</div>                       
-  <div class="bg-[#201] text-center items-center text-sky-200">#201</div>                        
-  <div class="bg-[#312] text-center items-center text-sky-300">#312</div>                        
-  <div class="bg-[#423] text-center items-center text-sky-300">#423</div>                        
-  <div class="bg-[#534] text-center items-center text-sky-400">#534</div>                        
-  <div class="bg-[#645] text-center items-center text-sky-400">#645</div>                        
-  <div class="bg-[#756] text-center items-center text-sky-400">#756</div>                        
-  <div class="bg-[#867] text-center items-center text-sky-500">#867</div>                        
+      <div class="grid grid-cols-[2fr_2fr_2fr_] items-center justify-center">
+  <div class="bg-[#000]/50"><br><hr class="text-[white]"><br></div>
+  <div class="bg-[#fff]/50"><br><hr class="text-[#000]"><br></div>
+  <div class="bg-[#000]/50"><br><hr class="text-[white]"><br></div>
 
-  <div class="bg-[#978] text-center items-center text-sky-500">#978</div>                        
-  <div class="bg-[#a89] text-center items-center text-sky-600">#a89</div>                        
-  <div class="bg-[#b9a] text-center items-center text-sky-600">#b9a</div>                        
-  <div class="bg-[#cab] text-center items-center text-sky-600">#cab</div>                        
-  <div class="bg-[#dbc] text-center items-center text-sky-700">#dbc</div>                        
-  <div class="bg-[#ecd] text-center items-center text-sky-700">#ecd</div>                        
-  <div class="bg-[#fde] text-center items-center text-sky-800">#fde</div>                        
-  <div class="bg-[#fef] text-center items-center text-sky-900">#fef</div>                        
-  <div class="bg-[#fff] text-center items-center text-sky-950">#fff</div>                          
-</div>
-<div class="grid grid-cols-18 gap-1 p-1 text-[77px] updock-regular">
-  <div class="bg-[#000] text-center items-center text-sky-50">#000</div>                        
-  <div class="bg-[#001] text-center items-center text-sky-100">#001</div>                       
-  <div class="bg-[#102] text-center items-center text-sky-200">#102</div>                        
-  <div class="bg-[#213] text-center items-center text-sky-300">#213</div>                        
-  <div class="bg-[#324] text-center items-center text-sky-300">#324</div>                        
-  <div class="bg-[#435] text-center items-center text-sky-400">#435</div>                        
-  <div class="bg-[#546] text-center items-center text-sky-400">#546</div>                        
-  <div class="bg-[#657] text-center items-center text-sky-400">#657</div>                        
-  <div class="bg-[#768] text-center items-center text-sky-500">#768</div>                        
-
-  <div class="bg-[#879] text-center items-center text-sky-500">#879</div>                        
-  <div class="bg-[#98a] text-center items-center text-sky-600">#98a</div>                        
-  <div class="bg-[#a9b] text-center items-center text-sky-600">#a9b</div>                        
-  <div class="bg-[#bac] text-center items-center text-sky-600">#bac</div>                        
-  <div class="bg-[#cbd] text-center items-center text-sky-700">#cbd</div>                        
-  <div class="bg-[#dce] text-center items-center text-sky-700">#dce</div>                        
-  <div class="bg-[#edf] text-center items-center text-sky-800">#edf</div>                        
-  <div class="bg-[#fef] text-center items-center text-sky-900">#fef</div>                        
-  <div class="bg-[#fff] text-center items-center text-sky-950">#fff</div>                          
-</div>
-
-
-
-
-<div class="grid grid-cols-18 gap-1 p-1 text-[77px] updock-regular">
-  <div class="bg-[#000] text-center items-center text-sky-50">#000</div>                        
-  <div class="bg-[#100] text-center items-center text-sky-100">#100</div>                       
-  <div class="bg-[#210] text-center items-center text-sky-200">#210</div>                        
-  <div class="bg-[#321] text-center items-center text-sky-300">#321</div>                        
-  <div class="bg-[#432] text-center items-center text-sky-300">#432</div>                        
-  <div class="bg-[#543] text-center items-center text-sky-400">#543</div>                        
-  <div class="bg-[#654] text-center items-center text-sky-400">#654</div>                        
-  <div class="bg-[#765] text-center items-center text-sky-400">#765</div>                        
-  <div class="bg-[#876] text-center items-center text-sky-500">#876</div>                        
-
-  <div class="bg-[#987] text-center items-center text-sky-500">#987</div>                        
-  <div class="bg-[#a98] text-center items-center text-sky-600">#a98</div>                        
-  <div class="bg-[#ba9] text-center items-center text-sky-600">#ba9</div>                        
-  <div class="bg-[#cba] text-center items-center text-sky-600">#cba</div>                        
-  <div class="bg-[#dcb] text-center items-center text-sky-700">#dcb</div>                        
-  <div class="bg-[#edc] text-center items-center text-sky-700">#edc</div>                        
-  <div class="bg-[#fed] text-center items-center text-sky-800">#fed</div>                        
-  <div class="bg-[#ffe] text-center items-center text-sky-900">#ffe</div>                        
-  <div class="bg-[#fff] text-center items-center text-sky-950">#fff</div>                          
-</div>
-<div class="grid grid-cols-18 gap-1 p-1 text-[77px] updock-regular">
-  <div class="bg-[#000] text-center items-center text-sky-50">#000</div>                        
-  <div class="bg-[#001] text-center items-center text-sky-100">#001</div>                       
-  <div class="bg-[#012] text-center items-center text-sky-200">#012</div>                        
-  <div class="bg-[#123] text-center items-center text-sky-300">#123</div>                        
-  <div class="bg-[#234] text-center items-center text-sky-300">#234</div>                        
-  <div class="bg-[#345] text-center items-center text-sky-400">#345</div>                        
-  <div class="bg-[#456] text-center items-center text-sky-400">#456</div>                        
-  <div class="bg-[#567] text-center items-center text-sky-400">#567</div>                        
-  <div class="bg-[#678] text-center items-center text-sky-500">#678</div>                        
-
-  <div class="bg-[#789] text-center items-center text-sky-500">#789</div>                        
-  <div class="bg-[#89a] text-center items-center text-sky-600">#89a</div>                        
-  <div class="bg-[#9ab] text-center items-center text-sky-600">#9ab</div>                        
-  <div class="bg-[#abc] text-center items-center text-sky-600">#abc</div>                        
-  <div class="bg-[#bcd] text-center items-center text-sky-700">#bcd</div>                        
-  <div class="bg-[#cde] text-center items-center text-sky-700">#cde</div>                        
-  <div class="bg-[#def] text-center items-center text-sky-800">#def</div>                        
-  <div class="bg-[#eff] text-center items-center text-sky-900">#eff</div>                        
-  <div class="bg-[#fff] text-center items-center text-sky-950">#fff</div>                          
-</div>
-<div class="grid grid-cols-18 gap-1 p-1 text-[77px] updock-regular">
-  <div class="bg-[#000] text-center items-center text-sky-50">#000</div>                        
-  <div class="bg-[#010] text-center items-center text-sky-100">#010</div>                       
-  <div class="bg-[#021] text-center items-center text-sky-200">#021</div>                        
-  <div class="bg-[#132] text-center items-center text-sky-300">#132</div>                        
-  <div class="bg-[#243] text-center items-center text-sky-300">#243</div>                        
-  <div class="bg-[#354] text-center items-center text-sky-400">#354</div>                        
-  <div class="bg-[#465] text-center items-center text-sky-400">#465</div>                        
-  <div class="bg-[#576] text-center items-center text-sky-400">#576</div>                        
-  <div class="bg-[#687] text-center items-center text-sky-500">#687</div>                        
-
-  <div class="bg-[#798] text-center items-center text-sky-500">#798</div>                        
-  <div class="bg-[#8a9] text-center items-center text-sky-600">#8a9</div>                        
-  <div class="bg-[#9ba] text-center items-center text-sky-600">#9ba</div>                        
-  <div class="bg-[#acb] text-center items-center text-sky-600">#acb</div>                        
-  <div class="bg-[#bdc] text-center items-center text-sky-700">#bdc</div>                        
-  <div class="bg-[#ced] text-center items-center text-sky-700">#ced</div>                        
-  <div class="bg-[#dfe] text-center items-center text-sky-800">#dfe</div>                        
-  <div class="bg-[#eff] text-center items-center text-sky-900">#eff</div>                        
-  <div class="bg-[#fff] text-center items-center text-sky-950">#fff</div>                          
-</div>
-<div class="grid grid-cols-18 gap-1 p-1 text-[77px] updock-regular">
-  <div class="bg-[#000] text-center items-center text-sky-50">#000</div>                        
-  <div class="bg-[#010] text-center items-center text-sky-100">#010</div>                       
-  <div class="bg-[#120] text-center items-center text-sky-200">#120</div>                        
-  <div class="bg-[#231] text-center items-center text-sky-300">#231</div>                        
-  <div class="bg-[#342] text-center items-center text-sky-300">#342</div>                        
-  <div class="bg-[#453] text-center items-center text-sky-400">#453</div>                        
-  <div class="bg-[#564] text-center items-center text-sky-400">#564</div>                        
-  <div class="bg-[#675] text-center items-center text-sky-400">#675</div>                        
-  <div class="bg-[#786] text-center items-center text-sky-500">#786</div>                        
-
-  <div class="bg-[#897] text-center items-center text-sky-500">#897</div>                        
-  <div class="bg-[#9a8] text-center items-center text-sky-600">#9a8</div>                        
-  <div class="bg-[#ab9] text-center items-center text-sky-600">#ab9</div>                        
-  <div class="bg-[#bca] text-center items-center text-sky-600">#bca</div>                        
-  <div class="bg-[#cdb] text-center items-center text-sky-700">#cdb</div>                        
-  <div class="bg-[#dec] text-center items-center text-sky-700">#dec</div>                        
-  <div class="bg-[#efd] text-center items-center text-sky-800">#efd</div>                        
-  <div class="bg-[#ffe] text-center items-center text-sky-900">#ffe</div>                        
-  <div class="bg-[#fff] text-center items-center text-sky-950">#fff</div>                          
-</div>
--->
-
+      </div>
+<mutedColorGridCarot />
     <h1 class=" fascinate-inline-regular bg-sky-950/0 w-full text-center"><div class="text-[#9ab] ">growingGenkiness</div></h1>
   <div class="grid grid-cols-[1fr_3fr] items-center justify-center">
     <div><img src="/earth.png" class="w-222" /></div>
-    <div class="grid grid-cols-[2fr_2fr_2fr_2fr_2fr_1fr_2fr] items-center justify-center">
+    <div class="grid grid-cols-[2fr_2fr_2fr_2fr_2fr_2fr_1fr_2fr] items-center justify-center">
       <div><sailboatCombined /></div>              
       <div><cowCombined /></div>      
+      <div><smilingWTearsCombined /></div>            
       <div><h1 class=" fascinate-inline-regular bg-sky-50/0 w-full text-center"><div class="text-[#89a] ">BWG</div></h1><img src="/color/BWG circles.png" class="" /></div>
       <div><turtleCombined /></div>              
       <div><unicornCombined /></div>     
@@ -180,120 +61,187 @@ import { RouterLink, RouterView } from "vue-router"
 
     </div>
   </div>
-  <div class="text-center">create scoped components for these recommended fonts and copy for use in blender</div>
-  <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center justify-center">
-    <div class="oswald text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontFreckleFace class="text-sky-300"> freckle-face-regular </fontFreckleFace></div>                    
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontMonoton class="text-sky-300"> Monoton </fontMonoton></div>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontUnifrakturCook class="text-sky-300"> UnifrakturCook </fontUnifrakturCook></div>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontFruktur class="text-sky-300"> Fruktur </fontFruktur></div>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontRubikMoonrocks class="text-sky-300"> RubikMoonrocks </fontRubikMoonrocks></div>
-    </div>
-<br><hr><br>
-
-  <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center justify-center">
-  
-    
-      <pre class="text-[7px]">
-    What's the BEST unicode / emoji?
-    <hr>
-    That’s such a fun — and tricky! — question!
-There isn’t a single **objectively “best” emoji or Unicode character**, since it depends on context, style, and personal vibe. But here’s a breakdown to help you pick your own “best” one:
-
----
-
-### 🌟 **Some contenders for "best" emoji (by popularity & versatility)**
-
-* ❤️ **Red heart** — universal love, support, positivity.
-* 😂 **Face with tears of joy** — consistently top in global usage (for humor, joy, silliness).
-* 🥺 **Pleading face** — super expressive and widely used in a cute or sympathetic context.
-* 🤔 **Thinking face** — great for curiosity, irony, or contemplation.
-* ✨ **Sparkles** — adds magic, excitement, or aesthetic shine to anything.
-
----
-
-### 🟡 **Unicode symbols that stand out**
-
-* ★ (U+2605) — black star, clean and strong.
-* ☯ (U+262F) — yin-yang, deep philosophical vibe.
-* ☀ (U+2600) — sun, bright and friendly.
-* ♾ (U+267E) — infinity, elegant and symbolic.
-* 🗿 (Moai) — culturally iconic, mysterious, and fun in meme usage.
-
----
-
-### 💡 **What makes an emoji or Unicode "the best"?**
-
-✅ Visually clear in most fonts and devices.
-✅ Versatile in meaning (can be funny, serious, or aesthetic).
-✅ Instantly recognizable and widely understood.
-
----
-
-### ✨ **My personal "best" suggestion if you want one that stands out yet is flexible**
-
-🔥 — fire!
-
-* Can mean "awesome," "hot," "on fire," "energy," or "cool."
-* Simple, universally recognized, and feels alive.
-
----
-
-If you'd like, I can help you pick the "best" one for a specific mood (cute, classy, bold, mysterious, etc.). Just tell me your vibe! 💥
-    </pre>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontMonoton class="text-sky-300"> Monoton </fontMonoton></div>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontUnifrakturCook class="text-sky-300"> UnifrakturCook </fontUnifrakturCook></div>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontFruktur class="text-sky-300"> Fruktur </fontFruktur></div>
-    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontRubikMoonrocks class="text-sky-300"> RubikMoonrocks </fontRubikMoonrocks></div>
-    </div>
-  <hr>
     <div class="oswald text-[33px] text-gray-50 bg-sky-950/50 text-center">This little light of mine ... </div>                    
-    <div class="grid grid-cols-[2fr_2fr_1fr_1fr_2fr_2fr] gap-5 p-5 text-[33px] bg-sky-950/75 anonymous-pro-regular">
+    <div class="grid grid-cols-[2fr_2fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] gap-5 p-5 text-[33px] bg-sky-950/75 anonymous-pro-regular">
       <div class=" text-gray-50 bg-[#000]/50 text-center items-center">#000</div>                        
       <div class=" text-gray-50 bg-[#404040]/50 text-center items-center">#2b2b2b</div>                        
       <div class=" text-gray-950 bg-[#808080]/50 text-center items-center">#808080</div>                        
-      <div class=" text-gray-50 bg-[#808080]/50 text-center items-center">#808080</div>                                              
+      <div class=" text-gray-50 bg-[#808080]/50 text-center items-center">#808080</div>    
+      <div class=" text-gray-50 bg-[#def]/50 text-center items-center text-[11px]">
+        blender & youtube u:a020f0ff c:NazareneOregonian
+        <br>
+        <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
+            videoEditing-cropping-v.0
+        </a>
+      </div> 
+      <div class=" text-gray-50 bg-[#bcd]/50 text-center items-center text-[11px]">
+        blender & youtube u:a020f0ff c:NazareneOregonian
+        <br>
+        <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
+            videoEditing-cropping-v.0
+        </a>
+      </div> 
+      <div class=" text-gray-50 bg-[#9ab]/50 text-center items-center text-[11px]">
+        blender & youtube u:a020f0ff c:NazareneOregonian
+        <br>
+        <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
+            videoEditing-cropping-v.0
+        </a>
+      </div> 
+      <div class=" text-gray-50 bg-[#678]/50 text-center items-center text-[11px]">
+        blender & youtube u:a020f0ff c:NazareneOregonian
+        <br>
+        <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
+            videoEditing-cropping-v.0
+        </a>
+      </div> 
+      <div class=" text-gray-50 bg-[#345]/50 text-center items-center text-[11px]">
+        blender & youtube u:a020f0ff c:NazareneOregonian
+        <br>
+        <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
+            videoEditing-cropping-v.0
+        </a>
+      </div> 
+      <div class=" text-gray-50 bg-[#012]/50 text-center items-center text-[11px]">
+        blender & youtube u:a020f0ff c:NazareneOregonian
+        <br>
+        <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
+            videoEditing-cropping-v.0
+        </a>
+      </div> 
+
     </div>
     <code class="text-[22px] p-50 ">.ppt (unicode-> 24" .png) -> .kra (separate & delete) -> .png (w alpha to trace bitmap into svg) -> .svg (path -> html) -> + javascript for individualization</code>
     <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr] gap-0 p-0 text-[22px] bg-sky-950/50 anonymous-pro-regular">
-      <div class=" text-gray-50 bg-[#000]/50 text-center items-center">d:Wasteland/</div>                        
-      <div class=" text-gray-50 bg-[#404040]/50 text-center items-center">/125/</div>                        
-      <div class=" text-gray-50 bg-[#808080]/50 text-center items-center">gime_me_spice.bat</div>                                              
+      <div class=" text-gray-50 bg-[#012]/50 text-center items-center">d:Wasteland/</div>                        
+      <div class=" text-gray-50 bg-[#345]/50 text-center items-center">/125/</div>                        
+      <div class=" text-gray-50 bg-[#567]/50 text-center items-center">gime_me_spice.bat</div>                                              
+      <div class=" text-gray-950 bg-[#789]/50 text-center items-center">Sea of Nought 
+            <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr] gap-0 p-0 text-[22px] bg-sky-950/50 anonymous-pro-regular">
+              <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">\</div>                                              
+              <div class=" text-gray-950 bg-[#c0c0c0]/50 text-center items-center">\</div>                                              
+              <div class=" text-gray-950 bg-[#a0a0a0]/50 text-center items-center">\</div>                                              
+              <div class=" text-gray-50 bg-[#808080]/50 text-center items-center">\</div>                                              
+              <div class=" text-gray-50 bg-[#404040]/50 text-center items-center">\</div>                        
+              <div class=" text-gray-50 bg-[#000]/50 text-center items-center">\</div>                        
+            </div>
+      </div>                                              
+      <div class=" text-gray-950 bg-[#9ab]/50 text-center items-center">calf
+            <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr] gap-0 p-0 text-[22px] bg-sky-950/50 anonymous-pro-regular">
+              <div class=" text-gray-50 bg-[#000]/50 text-center items-center">^</div>                        
+              <div class=" text-gray-50 bg-[#404040]/50 text-center items-center">^</div>                        
+              <div class=" text-gray-50 bg-[#808080]/50 text-center items-center">^</div>                                              
+              <div class=" text-gray-950 bg-[#a0a0a0]/50 text-center items-center">^</div>                                              
+              <div class=" text-gray-950 bg-[#c0c0c0]/50 text-center items-center">^</div>                                              
+              <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">^</div>                                              
+            </div>
+      </div>                                              
+      <div class=" text-gray-950 bg-[#bcd]/50 text-center items-center">growingGenkiness
+            <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr] gap-0 p-0 text-[22px] bg-sky-950/50 anonymous-pro-regular">
+              <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">/</div>                                              
+              <div class=" text-gray-950 bg-[#c0c0c0]/50 text-center items-center">/</div>                                              
+              <div class=" text-gray-950 bg-[#a0a0a0]/50 text-center items-center">/</div>                                              
+              <div class=" text-gray-50 bg-[#808080]/50 text-center items-center">/</div>                                              
+              <div class=" text-gray-50 bg-[#404040]/50 text-center items-center">/</div>                        
+              <div class=" text-gray-50 bg-[#000]/50 text-center items-center">/</div>                        
+            </div>
+      </div>                                              
     </div>
-  <br><br><br><br><br> 
-  <div class="bg-[#000]/50"><br><hr class="text-[white]"><br></div>
-  <div class="bg-[#fff]/50"><br><hr class="text-[#000]"><br></div>
-  <div class="bg-[#000]/50"><br><hr class="text-[white]"><br></div>
+
+
+  <br>
+
   
       <div class="bg-sky-500/25">
       <div class="oswald text-[33px] text-gray-950 bg-sky-50/25 text-center">
-        triggered? watch this 
+        triggered? watch this :
         <a href="https://www.youtube.com/watch?v=UPUVyDxyfJY" class="text-gray-50 hover:text-blue-800 underline">
             Perfection
           </a></div>
-      <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr] gap-5 p-5 text-[33px] bg-sky-950/75 anonymous-pro-regular">
+      <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] gap-5 p-5 text-[22px] bg-sky-950/75 anonymous-pro-regular">
         <div class=" text-gray-50 bg-[#000]/50 text-center items-center">
           <a href="https://www.youtube.com/@NazareneOregonian" class="text-gray-50 hover:text-blue-800 underline">
-            u:a020f0ff
-          </a>
+            u:a020f0ff</a><br> for raw content
         </div>                        
+        <div class=" text-gray-950 bg-[#000]/50 text-center items-center">
+           <a href="https://www.twitch.tv/a020f0ff" class="text-gray-50 hover:text-blue-800 underline">
+            twitch.tv/a020f0ff</a><br>
+        </div>                                
+
         <div class=" text-gray-50 bg-[#000]/50 text-center items-center">
           <a href="https://www.youtube.com/@NazareneOregonian" class="text-gray-50 hover:text-blue-800 underline">
             c:NazareneOregonian
           </a>
+          <a href="https://youtu.be/JSoSB7k2H4Y" class="text-gray-50 hover:text-blue-800 underline">
+            Boning v.0
+          </a>
         </div>
         <div class=" text-gray-950 bg-[#808080]/50 text-center items-center">
           <a href="https://www.youtube.com/@AllostaSissy" class="text-gray-50 hover:text-blue-800 underline">
-            u:allostasissy
-          </a>
+            u:allostasissy</a><br> for regular content
         </div>                        
-        <div class=" text-gray-50 bg-[#808080]/50 text-center items-center"><a href="https://studio.youtube.com/channel/UClPiXGpRCtL0MJ9pWkBXdkg" class="text-gray-50 hover:text-blue-800 underline">
+        <div class=" text-gray-950 bg-[#808080]/50 text-center items-center">
+          <a href="https://www.twitch.tv/allostasissy" class="text-gray-50 hover:text-blue-800 underline">
+            twitch.tv/allostasissy</a><br>
+        </div>                        
+
+        <div class=" text-gray-50 bg-[#808080]/50 text-center items-center"><a href="https://www.youtube.com/@AllostaSissy" class="text-gray-50 hover:text-blue-800 underline">
            c:allostasissy
           </a></div>                                              
-        <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">#fff</div>                        
-        <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">#fff</div>                        
-      </div>
+        <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">
+            u: mom.veronica<br>
+          for mindful content</div>   
+        <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">
+           <a href="https://www.twitch.tv/cindyskids" class="text-gray-50 hover:text-blue-800 underline">
+            twitch.tv/cindyskids</a><br>
+        </div>                                
+        <div class=" text-gray-950 bg-[#fff]/50 text-center items-center">
+          <a href="https://www.youtube.com/@CindysKids" class="text-gray-50 hover:text-blue-800 underline">
+            c: CindysKids
+          </a></div>                        
+        <div class=" text-gray-50 bg-[#342]/75 text-center items-center">
+          <a href="https://www.youtube.com/@NazareneOregonian" class="text-gray-50 hover:text-blue-800 underline">
+            u:RoyalWeThePeople</a><br> for actions w class
+        </div>                        
+        <div class=" text-gray-950 bg-[#342]/75 text-center items-center">
+           <a href="https://www.twitch.tv/royalwethepeople" class="text-gray-50 hover:text-blue-800 underline">
+            twitch.tv/royalwethepeople</a><br>
+        </div>                                
+
+        <div class=" text-gray-50 bg-[#342]/75 text-center items-center">
+          <a href="https://www.youtube.com/@RoyalWeThePeople" class="text-gray-50 hover:text-blue-800 underline">
+            c:RoyalWeThePeople
+          </a>
+        </div>
+        <div class=" text-gray-950 bg-[#564]/75 text-center items-center">
+          <a href="https://www.youtube.com/@AllostaSissy" class="text-gray-50 hover:text-blue-800 underline">
+            u:endingthesilence.me</a><br> for questions
+        </div>                        
+        <div class=" text-gray-950 bg-[#564]/75 text-center items-center">
+          <a href="https://www.twitch.tv/endingthesilence" class="text-gray-50 hover:text-blue-800 underline">
+            twitch.tv/endingthesilence</a><br>
+        </div>                        
+
+        <div class=" text-gray-50 bg-[#564]/50 text-center items-center"><a href="https://www.youtube.com/@endingmysilence" class="text-gray-50 hover:text-blue-800 underline">
+           c:endingmysilence
+          </a></div>                                              
+        <div class=" text-gray-950 bg-[#ab9]/50 text-center items-center">
+            u: gdkp.org<br>
+          for business content</div>   
+        <div class=" text-gray-950 bg-[#ab9]/50 text-center items-center">
+           <a href="https://www.twitch.tv/gdkporg" class="text-gray-50 hover:text-blue-800 underline">
+            twitch.tv/gdkporg</a><br>
+        </div>                                
+        <div class=" text-gray-950 bg-[#ab9]/50 text-center items-center">
+          <a href="https://www.youtube.com/@gdkpOrg" class="text-gray-50 hover:text-blue-800 underline">
+            c: gdkpOrg
+          </a></div>                        
+      
+        </div>
     </div>
-  
+  https://en.wikipedia.org/wiki/Talk:Trigun<br>
+  https://en.wikipedia.org/wiki/Talk:Kill_Bill:_Volume_2<br>
+  "i will not accept a life i do not deserve"
 
 <img src="/color/YRB-Paint.png" class="w-33 block mx-auto" />
 <h2 class="updock-regular bg-sky-800/50 text-center">YRB-paint</h2>
@@ -613,6 +561,76 @@ If you'd like, I can help you pick the "best" one for a specific mood (cute, cla
 <h4>App.vue</h4>
 <h5>App.vue</h5>
 <h6>App.vue</h6>
+  <div class="text-center">create scoped components for these recommended fonts and copy for use in blender</div>
+  <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center justify-center">
+    <div class="oswald text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontFreckleFace class="text-sky-300"> freckle-face-regular </fontFreckleFace></div>                    
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontMonoton class="text-sky-300"> Monoton </fontMonoton></div>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontUnifrakturCook class="text-sky-300"> UnifrakturCook </fontUnifrakturCook></div>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontFruktur class="text-sky-300"> Fruktur </fontFruktur></div>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontRubikMoonrocks class="text-sky-300"> RubikMoonrocks </fontRubikMoonrocks></div>
+    </div>
+<br><hr><br>
+
+  <div class="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center justify-center">
+  
+    
+      <pre class="text-[7px]">
+    What's the BEST unicode / emoji?
+    <hr>
+    That’s such a fun — and tricky! — question!
+There isn’t a single **objectively “best” emoji or Unicode character**, since it depends on context, style, and personal vibe. But here’s a breakdown to help you pick your own “best” one:
+
+---
+
+### 🌟 **Some contenders for "best" emoji (by popularity & versatility)**
+
+* ❤️ **Red heart** — universal love, support, positivity.
+* 😂 **Face with tears of joy** — consistently top in global usage (for humor, joy, silliness).
+* 🥺 **Pleading face** — super expressive and widely used in a cute or sympathetic context.
+* 🤔 **Thinking face** — great for curiosity, irony, or contemplation.
+* ✨ **Sparkles** — adds magic, excitement, or aesthetic shine to anything.
+
+---
+
+### 🟡 **Unicode symbols that stand out**
+
+* ★ (U+2605) — black star, clean and strong.
+* ☯ (U+262F) — yin-yang, deep philosophical vibe.
+* ☀ (U+2600) — sun, bright and friendly.
+* ♾ (U+267E) — infinity, elegant and symbolic.
+* 🗿 (Moai) — culturally iconic, mysterious, and fun in meme usage.
+
+---
+
+### 💡 **What makes an emoji or Unicode "the best"?**
+
+✅ Visually clear in most fonts and devices.
+✅ Versatile in meaning (can be funny, serious, or aesthetic).
+✅ Instantly recognizable and widely understood.
+
+---
+
+### ✨ **My personal "best" suggestion if you want one that stands out yet is flexible**
+
+🔥 — fire!
+
+* Can mean "awesome," "hot," "on fire," "energy," or "cool."
+* Simple, universally recognized, and feels alive.
+
+---
+
+If you'd like, I can help you pick the "best" one for a specific mood (cute, classy, bold, mysterious, etc.). Just tell me your vibe! 💥
+    </pre>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontMonoton class="text-sky-300"> Monoton </fontMonoton></div>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontUnifrakturCook class="text-sky-300"> UnifrakturCook </fontUnifrakturCook></div>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontFruktur class="text-sky-300"> Fruktur </fontFruktur></div>
+    <div class="text-[33px] text-gray-500 bg-sky-950/50 text-center"> <fontRubikMoonrocks class="text-sky-300"> RubikMoonrocks </fontRubikMoonrocks></div>
+    </div>
+  <hr>
+
+
+
+
 
 </backgroundImages>
 </template>

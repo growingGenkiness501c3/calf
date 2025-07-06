@@ -16,7 +16,7 @@ export default {
     },     
     cowEye: {
       type: String,
-      default: '#070'
+      default: '#564'
     },     
     cowEar: {
       type: String,
