@@ -6,12 +6,13 @@ import Footer from "@/components/bars/Footer.vue"
 import zer04 from "@/components/zer0/zer04.vue"
 import zer05 from "@/components/zer0/zer05.vue"
 import zer06 from "@/components/zer0/zer06.vue"
-import fontBar from "@/components/bars/fontBar.vue"
+
 import IkigaiBar from "@/components/bars/IkigaiBar.vue"
 import AllostasissyBar from "@/components/bars/AllostasissyBar.vue"
 */
 
 <script setup lang="ts">
+import fontBar from "@/components/bars/fontBar.vue"
 import fontFreckleFace from "./components/scopedFonts/fontUnifrakturCook.vue"
 import fontFruktur from "./components/scopedFonts/fontFruktur.vue"
 import fontMonoton from "./components/scopedFonts/fontMonoton.vue"
@@ -38,14 +39,28 @@ import { RouterLink, RouterView } from "vue-router"
 </script>
 <template><code>🐮牛🐄 https://www.twitch.tv/diana_juliet129/videos</code>
 <backgroundImages>
-      <div class="grid grid-cols-[2fr_2fr_2fr_] items-center justify-center">
+<div class="grid grid-cols-[2fr_2fr_2fr_] items-center justify-center">
   <div class="bg-[#000]/50"><br><hr class="text-[white]"><br></div>
   <div class="bg-[#fff]/50"><br><hr class="text-[#000]"><br></div>
   <div class="bg-[#000]/50"><br><hr class="text-[white]"><br></div>
-
-      </div>
+</div>
+<div class="grid grid-cols-[7fr_1fr_1fr] items-center justify-center">
+  <div>
+    <h1 class=" bg-sky-950/0 w-full text-center"><div class="updock-regular text text-[#426] ">Today is </div><div class=" rajdhani-bold text-[#aa6] ">Monday July 7th, 125</div></h1>
+    <h1 class=" oswald bg-sky-950/0 w-full text-center"><div class="text-[#a66] ">75uG 75uN 75uH lev B D met</div></h1>
+    <h1 class=" rajdhani-semibold bg-sky-950/0 w-full text-center"><div class=" text-[#86a] ">streaming at twitch.tv/allostasissy</div></h1>
+    <h1 class=" fascinate-inline-regular bg-sky-950/0 w-full text-center"><div class="text-[#013] ">studio camera ready for monday -> dishes kept up -> laundry processing -> bone a wizard hat</div></h1>
+  https://justice.oregon.gov/victims/compensation/account/login</div>
+  <div>
+    <h1 class="alumni-sans-pinstripe-regular bg-sky-950/0 w-full text-center"><div class="text-[#9ba] "><strong>where is my pain today?</strong></div></h1>
+  </div>
+  <h1 class=" alumni-sans-pinstripe-regular-italic bg-sky-950/0 w-full text-center"><div class="text-[#f88] "><strong>sit bones<br>ischial tuberosities</strong></div></h1>
+</div>
 <mutedColorGridCarot />
+    <h1 class=" coral-pixels-regular bg-sky-950/0 w-full text-center"><div class="text-[#9ab] ">growingGenkiness</div></h1>    
     <h1 class=" fascinate-inline-regular bg-sky-950/0 w-full text-center"><div class="text-[#9ab] ">growingGenkiness</div></h1>
+
+    
   <div class="grid grid-cols-[1fr_3fr] items-center justify-center">
     <div><img src="/earth.png" class="w-222" /></div>
     <div class="grid grid-cols-[2fr_2fr_2fr_2fr_2fr_2fr_1fr_2fr] items-center justify-center">
@@ -61,7 +76,7 @@ import { RouterLink, RouterView } from "vue-router"
 
     </div>
   </div>
-    <div class="oswald text-[33px] text-gray-50 bg-sky-950/50 text-center">This little light of mine ... </div>                    
+    <div class="mea-culpa-regular text-[55px] text-gray-50 bg-sky-950/50 text-center">This little light of mine ... </div>                    
     <div class="grid grid-cols-[2fr_2fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr_1fr] gap-5 p-5 text-[33px] bg-sky-950/75 anonymous-pro-regular">
       <div class=" text-gray-50 bg-[#000]/50 text-center items-center">#000</div>                        
       <div class=" text-gray-50 bg-[#404040]/50 text-center items-center">#2b2b2b</div>                        
@@ -239,6 +254,7 @@ import { RouterLink, RouterView } from "vue-router"
       
         </div>
     </div>
+<fontBar />
   https://en.wikipedia.org/wiki/Talk:Trigun<br>
   https://en.wikipedia.org/wiki/Talk:Kill_Bill:_Volume_2<br>
   "i will not accept a life i do not deserve"
